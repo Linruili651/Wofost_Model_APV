@@ -1,0 +1,1258 @@
+{
+  "archive_sha256": "ab1fd591ed9b18864b3abc37acac054fa303e88c0b145939e7bdf1bbaf57b453",
+  "sqlite_quick_check": [
+    "ok"
+  ],
+  "note": "Samples establish structure only; no Aachen site or representative soil was selected.",
+  "gpkg_contents": [
+    {
+      "table_name": "BK50",
+      "data_type": "features",
+      "identifier": "BK50",
+      "description": "",
+      "last_change": "2026-02-06T12:26:13.882Z",
+      "min_x": 280344.1377999996,
+      "min_y": 5575896.204600001,
+      "max_x": 531831.0248999996,
+      "max_y": 5820235.7125,
+      "srs_id": 25832
+    },
+    {
+      "table_name": "ATKIS",
+      "data_type": "features",
+      "identifier": "ATKIS",
+      "description": "",
+      "last_change": "2026-02-27T14:40:01.486Z",
+      "min_x": 280374.9680000003,
+      "min_y": 5577679.22,
+      "max_x": 531791.2000000001,
+      "max_y": 5820211.607999999,
+      "srs_id": 25832
+    },
+    {
+      "table_name": "BK50_ATKIS",
+      "data_type": "features",
+      "identifier": "BK50_ATKIS",
+      "description": "",
+      "last_change": "2026-03-10T11:52:11.450Z",
+      "min_x": 280374.9680000003,
+      "min_y": 5577679.22,
+      "max_x": 531791.2000000001,
+      "max_y": 5820207.5906,
+      "srs_id": 25832
+    }
+  ],
+  "spatial_reference_systems": [
+    {
+      "srs_name": "Undefined Cartesian SRS",
+      "srs_id": -1,
+      "organization": "NONE",
+      "organization_coordsys_id": -1,
+      "definition": "undefined",
+      "description": "undefined Cartesian coordinate reference system"
+    },
+    {
+      "srs_name": "Undefined geographic SRS",
+      "srs_id": 0,
+      "organization": "NONE",
+      "organization_coordsys_id": 0,
+      "definition": "undefined",
+      "description": "undefined geographic coordinate reference system"
+    },
+    {
+      "srs_name": "WGS 84 geodetic",
+      "srs_id": 4326,
+      "organization": "EPSG",
+      "organization_coordsys_id": 4326,
+      "definition": "GEOGCS[\"WGS 84\",DATUM[\"WGS_1984\",SPHEROID[\"WGS 84\",6378137,298.257223563,AUTHORITY[\"EPSG\",\"7030\"]],AUTHORITY[\"EPSG\",\"6326\"]],PRIMEM[\"Greenwich\",0,AUTHORITY[\"EPSG\",\"8901\"]],UNIT[\"degree\",0.0174532925199433,AUTHORITY[\"EPSG\",\"9122\"]],AXIS[\"Latitude\",NORTH],AXIS[\"Longitude\",EAST],AUTHORITY[\"EPSG\",\"4326\"]]",
+      "description": "longitude/latitude coordinates in decimal degrees on the WGS 84 spheroid"
+    },
+    {
+      "srs_name": "ETRS89 / UTM zone 32N",
+      "srs_id": 25832,
+      "organization": "EPSG",
+      "organization_coordsys_id": 25832,
+      "definition": "PROJCS[\"ETRS89 / UTM zone 32N\",GEOGCS[\"ETRS89\",DATUM[\"European_Terrestrial_Reference_System_1989\",SPHEROID[\"GRS 1980\",6378137,298.257222101,AUTHORITY[\"EPSG\",\"7019\"]],AUTHORITY[\"EPSG\",\"6258\"]],PRIMEM[\"Greenwich\",0,AUTHORITY[\"EPSG\",\"8901\"]],UNIT[\"degree\",0.0174532925199433,AUTHORITY[\"EPSG\",\"9122\"]],AUTHORITY[\"EPSG\",\"4258\"]],PROJECTION[\"Transverse_Mercator\"],PARAMETER[\"latitude_of_origin\",0],PARAMETER[\"central_meridian\",9],PARAMETER[\"scale_factor\",0.9996],PARAMETER[\"false_easting\",500000],PARAMETER[\"false_northing\",0],UNIT[\"metre\",1,AUTHORITY[\"EPSG\",\"9001\"]],AXIS[\"Easting\",EAST],AXIS[\"Northing\",NORTH],AUTHORITY[\"EPSG\",\"25832\"]]",
+      "description": null
+    }
+  ],
+  "tables": {
+    "BK50": {
+      "row_count": 155128,
+      "columns": [
+        {
+          "cid": 0,
+          "name": "fid",
+          "type": "INTEGER",
+          "notnull": 1,
+          "dflt_value": null,
+          "pk": 1
+        },
+        {
+          "cid": 1,
+          "name": "geom",
+          "type": "GEOMETRY",
+          "notnull": 0,
+          "dflt_value": null,
+          "pk": 0
+        },
+        {
+          "cid": 2,
+          "name": "OBJECTID",
+          "type": "INTEGER",
+          "notnull": 0,
+          "dflt_value": null,
+          "pk": 0
+        },
+        {
+          "cid": 3,
+          "name": "Name",
+          "type": "TEXT(30)",
+          "notnull": 0,
+          "dflt_value": null,
+          "pk": 0
+        },
+        {
+          "cid": 4,
+          "name": "AREAhaBK50",
+          "type": "REAL",
+          "notnull": 0,
+          "dflt_value": null,
+          "pk": 0
+        },
+        {
+          "cid": 5,
+          "name": "GW_CODE",
+          "type": "TEXT(254)",
+          "notnull": 0,
+          "dflt_value": null,
+          "pk": 0
+        },
+        {
+          "cid": 6,
+          "name": "SW_CODE",
+          "type": "TEXT(254)",
+          "notnull": 0,
+          "dflt_value": null,
+          "pk": 0
+        },
+        {
+          "cid": 7,
+          "name": "GW_TIEFE",
+          "type": "REAL",
+          "notnull": 0,
+          "dflt_value": null,
+          "pk": 0
+        },
+        {
+          "cid": 8,
+          "name": "LF_TIEFE",
+          "type": "REAL",
+          "notnull": 0,
+          "dflt_value": null,
+          "pk": 0
+        },
+        {
+          "cid": 9,
+          "name": "BWZ_1",
+          "type": "REAL",
+          "notnull": 0,
+          "dflt_value": null,
+          "pk": 0
+        },
+        {
+          "cid": 10,
+          "name": "BWZ_2",
+          "type": "REAL",
+          "notnull": 0,
+          "dflt_value": null,
+          "pk": 0
+        },
+        {
+          "cid": 11,
+          "name": "BWZ_M",
+          "type": "REAL",
+          "notnull": 0,
+          "dflt_value": null,
+          "pk": 0
+        },
+        {
+          "cid": 12,
+          "name": "ANALOG_E",
+          "type": "TEXT(254)",
+          "notnull": 0,
+          "dflt_value": null,
+          "pk": 0
+        },
+        {
+          "cid": 13,
+          "name": "BASUW",
+          "type": "TEXT(254)",
+          "notnull": 0,
+          "dflt_value": null,
+          "pk": 0
+        },
+        {
+          "cid": 14,
+          "name": "TIEFE",
+          "type": "REAL",
+          "notnull": 0,
+          "dflt_value": null,
+          "pk": 0
+        },
+        {
+          "cid": 15,
+          "name": "NFK",
+          "type": "REAL",
+          "notnull": 0,
+          "dflt_value": null,
+          "pk": 0
+        },
+        {
+          "cid": 16,
+          "name": "FK",
+          "type": "REAL",
+          "notnull": 0,
+          "dflt_value": null,
+          "pk": 0
+        },
+        {
+          "cid": 17,
+          "name": "LK",
+          "type": "REAL",
+          "notnull": 0,
+          "dflt_value": null,
+          "pk": 0
+        },
+        {
+          "cid": 18,
+          "name": "KAK",
+          "type": "REAL",
+          "notnull": 0,
+          "dflt_value": null,
+          "pk": 0
+        },
+        {
+          "cid": 19,
+          "name": "EROD",
+          "type": "REAL",
+          "notnull": 0,
+          "dflt_value": null,
+          "pk": 0
+        },
+        {
+          "cid": 20,
+          "name": "KF",
+          "type": "REAL",
+          "notnull": 0,
+          "dflt_value": null,
+          "pk": 0
+        },
+        {
+          "cid": 21,
+          "name": "KAP",
+          "type": "REAL",
+          "notnull": 0,
+          "dflt_value": null,
+          "pk": 0
+        },
+        {
+          "cid": 22,
+          "name": "OFA",
+          "type": "REAL",
+          "notnull": 0,
+          "dflt_value": null,
+          "pk": 0
+        },
+        {
+          "cid": 23,
+          "name": "LK4",
+          "type": "REAL",
+          "notnull": 0,
+          "dflt_value": null,
+          "pk": 0
+        },
+        {
+          "cid": 24,
+          "name": "LKNFK",
+          "type": "REAL",
+          "notnull": 0,
+          "dflt_value": null,
+          "pk": 0
+        },
+        {
+          "cid": 25,
+          "name": "DEN_0_5",
+          "type": "TEXT(254)",
+          "notnull": 0,
+          "dflt_value": null,
+          "pk": 0
+        },
+        {
+          "cid": 26,
+          "name": "DEN_6_10",
+          "type": "TEXT(254)",
+          "notnull": 0,
+          "dflt_value": null,
+          "pk": 0
+        },
+        {
+          "cid": 27,
+          "name": "DEN_11_20",
+          "type": "TEXT(254)",
+          "notnull": 0,
+          "dflt_value": null,
+          "pk": 0
+        },
+        {
+          "cid": 28,
+          "name": "FEU",
+          "type": "TEXT(254)",
+          "notnull": 0,
+          "dflt_value": null,
+          "pk": 0
+        },
+        {
+          "cid": 29,
+          "name": "OFAKLA",
+          "type": "TEXT(254)",
+          "notnull": 0,
+          "dflt_value": null,
+          "pk": 0
+        },
+        {
+          "cid": 30,
+          "name": "OFA_GWS",
+          "type": "TEXT(254)",
+          "notnull": 0,
+          "dflt_value": null,
+          "pk": 0
+        },
+        {
+          "cid": 31,
+          "name": "NEI",
+          "type": "TEXT(254)",
+          "notnull": 0,
+          "dflt_value": null,
+          "pk": 0
+        },
+        {
+          "cid": 32,
+          "name": "SIC",
+          "type": "TEXT(254)",
+          "notnull": 0,
+          "dflt_value": null,
+          "pk": 0
+        },
+        {
+          "cid": 33,
+          "name": "FIL",
+          "type": "TEXT(254)",
+          "notnull": 0,
+          "dflt_value": null,
+          "pk": 0
+        },
+        {
+          "cid": 34,
+          "name": "BFE",
+          "type": "TEXT(254)",
+          "notnull": 0,
+          "dflt_value": null,
+          "pk": 0
+        },
+        {
+          "cid": 35,
+          "name": "BFE_2",
+          "type": "TEXT(254)",
+          "notnull": 0,
+          "dflt_value": null,
+          "pk": 0
+        },
+        {
+          "cid": 36,
+          "name": "BFE_CC",
+          "type": "TEXT(254)",
+          "notnull": 0,
+          "dflt_value": null,
+          "pk": 0
+        },
+        {
+          "cid": 37,
+          "name": "GBK_1M",
+          "type": "REAL",
+          "notnull": 0,
+          "dflt_value": null,
+          "pk": 0
+        },
+        {
+          "cid": 38,
+          "name": "GBK_2M",
+          "type": "REAL",
+          "notnull": 0,
+          "dflt_value": null,
+          "pk": 0
+        },
+        {
+          "cid": 39,
+          "name": "GBK_NASS",
+          "type": "REAL",
+          "notnull": 0,
+          "dflt_value": null,
+          "pk": 0
+        },
+        {
+          "cid": 40,
+          "name": "GBK_STAU",
+          "type": "REAL",
+          "notnull": 0,
+          "dflt_value": null,
+          "pk": 0
+        },
+        {
+          "cid": 41,
+          "name": "VER_KLA",
+          "type": "REAL",
+          "notnull": 0,
+          "dflt_value": null,
+          "pk": 0
+        },
+        {
+          "cid": 42,
+          "name": "KOR",
+          "type": "TEXT(254)",
+          "notnull": 0,
+          "dflt_value": null,
+          "pk": 0
+        },
+        {
+          "cid": 43,
+          "name": "FESA",
+          "type": "REAL",
+          "notnull": 0,
+          "dflt_value": null,
+          "pk": 0
+        },
+        {
+          "cid": 44,
+          "name": "TOHU",
+          "type": "REAL",
+          "notnull": 0,
+          "dflt_value": null,
+          "pk": 0
+        },
+        {
+          "cid": 45,
+          "name": "BOD_WASSER",
+          "type": "TEXT(254)",
+          "notnull": 0,
+          "dflt_value": null,
+          "pk": 0
+        },
+        {
+          "cid": 46,
+          "name": "KERN",
+          "type": "TEXT(254)",
+          "notnull": 0,
+          "dflt_value": null,
+          "pk": 0
+        },
+        {
+          "cid": 47,
+          "name": "TYP",
+          "type": "TEXT(254)",
+          "notnull": 0,
+          "dflt_value": null,
+          "pk": 0
+        },
+        {
+          "cid": 48,
+          "name": "HPTTYP",
+          "type": "TEXT(254)",
+          "notnull": 0,
+          "dflt_value": null,
+          "pk": 0
+        },
+        {
+          "cid": 49,
+          "name": "ART",
+          "type": "REAL",
+          "notnull": 0,
+          "dflt_value": null,
+          "pk": 0
+        },
+        {
+          "cid": 50,
+          "name": "DIC",
+          "type": "REAL",
+          "notnull": 0,
+          "dflt_value": null,
+          "pk": 0
+        },
+        {
+          "cid": 51,
+          "name": "GW_STUFE",
+          "type": "REAL",
+          "notnull": 0,
+          "dflt_value": null,
+          "pk": 0
+        },
+        {
+          "cid": 52,
+          "name": "SW_STUFE",
+          "type": "REAL",
+          "notnull": 0,
+          "dflt_value": null,
+          "pk": 0
+        },
+        {
+          "cid": 53,
+          "name": "TYP_TEXT",
+          "type": "TEXT(254)",
+          "notnull": 0,
+          "dflt_value": null,
+          "pk": 0
+        },
+        {
+          "cid": 54,
+          "name": "ART_TEXT",
+          "type": "TEXT(254)",
+          "notnull": 0,
+          "dflt_value": null,
+          "pk": 0
+        },
+        {
+          "cid": 55,
+          "name": "DIC_TEXT",
+          "type": "TEXT(254)",
+          "notnull": 0,
+          "dflt_value": null,
+          "pk": 0
+        },
+        {
+          "cid": 56,
+          "name": "EIN_TEXT",
+          "type": "TEXT(254)",
+          "notnull": 0,
+          "dflt_value": null,
+          "pk": 0
+        },
+        {
+          "cid": 57,
+          "name": "KERNFOLGE",
+          "type": "REAL",
+          "notnull": 0,
+          "dflt_value": null,
+          "pk": 0
+        },
+        {
+          "cid": 58,
+          "name": "FAR_NAME",
+          "type": "TEXT(254)",
+          "notnull": 0,
+          "dflt_value": null,
+          "pk": 0
+        },
+        {
+          "cid": 59,
+          "name": "SCH_NAME",
+          "type": "TEXT(254)",
+          "notnull": 0,
+          "dflt_value": null,
+          "pk": 0
+        },
+        {
+          "cid": 60,
+          "name": "BLATT",
+          "type": "TEXT(254)",
+          "notnull": 0,
+          "dflt_value": null,
+          "pk": 0
+        },
+        {
+          "cid": 61,
+          "name": "KJAHR",
+          "type": "REAL",
+          "notnull": 0,
+          "dflt_value": null,
+          "pk": 0
+        },
+        {
+          "cid": 62,
+          "name": "ZPH_A",
+          "type": "REAL",
+          "notnull": 0,
+          "dflt_value": null,
+          "pk": 0
+        },
+        {
+          "cid": 63,
+          "name": "ZPH_G",
+          "type": "REAL",
+          "notnull": 0,
+          "dflt_value": null,
+          "pk": 0
+        },
+        {
+          "cid": 64,
+          "name": "SBDA",
+          "type": "TEXT(254)",
+          "notnull": 0,
+          "dflt_value": null,
+          "pk": 0
+        },
+        {
+          "cid": 65,
+          "name": "BBODSCHV",
+          "type": "TEXT(254)",
+          "notnull": 0,
+          "dflt_value": null,
+          "pk": 0
+        },
+        {
+          "cid": 66,
+          "name": "LUFA_BDA",
+          "type": "TEXT(254)",
+          "notnull": 0,
+          "dflt_value": null,
+          "pk": 0
+        },
+        {
+          "cid": 67,
+          "name": "LUFA_TXT",
+          "type": "TEXT(254)",
+          "notnull": 0,
+          "dflt_value": null,
+          "pk": 0
+        },
+        {
+          "cid": 68,
+          "name": "LUFA_GRP",
+          "type": "REAL",
+          "notnull": 0,
+          "dflt_value": null,
+          "pk": 0
+        },
+        {
+          "cid": 69,
+          "name": "SBDA_TXT",
+          "type": "TEXT(254)",
+          "notnull": 0,
+          "dflt_value": null,
+          "pk": 0
+        },
+        {
+          "cid": 70,
+          "name": "ERD_WLF_1",
+          "type": "REAL",
+          "notnull": 0,
+          "dflt_value": null,
+          "pk": 0
+        },
+        {
+          "cid": 71,
+          "name": "ERD_WLF_2",
+          "type": "REAL",
+          "notnull": 0,
+          "dflt_value": null,
+          "pk": 0
+        },
+        {
+          "cid": 72,
+          "name": "WAS_AC",
+          "type": "REAL",
+          "notnull": 0,
+          "dflt_value": null,
+          "pk": 0
+        },
+        {
+          "cid": 73,
+          "name": "GWEINAC",
+          "type": "REAL",
+          "notnull": 0,
+          "dflt_value": null,
+          "pk": 0
+        },
+        {
+          "cid": 74,
+          "name": "WAS_GR",
+          "type": "REAL",
+          "notnull": 0,
+          "dflt_value": null,
+          "pk": 0
+        },
+        {
+          "cid": 75,
+          "name": "GWEINGR",
+          "type": "REAL",
+          "notnull": 0,
+          "dflt_value": null,
+          "pk": 0
+        },
+        {
+          "cid": 76,
+          "name": "T3_AC",
+          "type": "REAL",
+          "notnull": 0,
+          "dflt_value": null,
+          "pk": 0
+        },
+        {
+          "cid": 77,
+          "name": "T3_GR",
+          "type": "REAL",
+          "notnull": 0,
+          "dflt_value": null,
+          "pk": 0
+        },
+        {
+          "cid": 78,
+          "name": "GWO",
+          "type": "REAL",
+          "notnull": 0,
+          "dflt_value": null,
+          "pk": 0
+        },
+        {
+          "cid": 79,
+          "name": "NFK_GR",
+          "type": "REAL",
+          "notnull": 0,
+          "dflt_value": null,
+          "pk": 0
+        },
+        {
+          "cid": 80,
+          "name": "NFKWEGR",
+          "type": "REAL",
+          "notnull": 0,
+          "dflt_value": null,
+          "pk": 0
+        },
+        {
+          "cid": 81,
+          "name": "BBK",
+          "type": "TEXT(254)",
+          "notnull": 0,
+          "dflt_value": null,
+          "pk": 0
+        },
+        {
+          "cid": 82,
+          "name": "BBK_NRW",
+          "type": "TEXT(254)",
+          "notnull": 0,
+          "dflt_value": null,
+          "pk": 0
+        },
+        {
+          "cid": 83,
+          "name": "L_MOOR_K",
+          "type": "TEXT(254)",
+          "notnull": 0,
+          "dflt_value": null,
+          "pk": 0
+        },
+        {
+          "cid": 84,
+          "name": "L_TON_K",
+          "type": "TEXT(254)",
+          "notnull": 0,
+          "dflt_value": null,
+          "pk": 0
+        },
+        {
+          "cid": 85,
+          "name": "LOK_HUMUS",
+          "type": "TEXT(254)",
+          "notnull": 0,
+          "dflt_value": null,
+          "pk": 0
+        },
+        {
+          "cid": 86,
+          "name": "LOK_TORFE",
+          "type": "TEXT(254)",
+          "notnull": 0,
+          "dflt_value": null,
+          "pk": 0
+        },
+        {
+          "cid": 87,
+          "name": "LOK_WASSER",
+          "type": "TEXT(254)",
+          "notnull": 0,
+          "dflt_value": null,
+          "pk": 0
+        },
+        {
+          "cid": 88,
+          "name": "BKOMPV",
+          "type": "REAL",
+          "notnull": 0,
+          "dflt_value": null,
+          "pk": 0
+        },
+        {
+          "cid": 89,
+          "name": "FL_NUM",
+          "type": "MEDIUMINT",
+          "notnull": 0,
+          "dflt_value": null,
+          "pk": 0
+        },
+        {
+          "cid": 90,
+          "name": "Shape_Length",
+          "type": "REAL",
+          "notnull": 0,
+          "dflt_value": null,
+          "pk": 0
+        },
+        {
+          "cid": 91,
+          "name": "Shape_Area",
+          "type": "REAL",
+          "notnull": 0,
+          "dflt_value": null,
+          "pk": 0
+        }
+      ],
+      "sample_rows_for_structure_only": [
+        {
+          "fid": 1,
+          "OBJECTID": 1,
+          "Name": "L4704_K341",
+          "AREAhaBK50": 16.0226175645,
+          "GW_CODE": "GW0",
+          "SW_CODE": "SW0",
+          "GW_TIEFE": 99.0,
+          "LF_TIEFE": 0.0,
+          "BWZ_1": 55.0,
+          "BWZ_2": 75.0,
+          "BWZ_M": 65.0,
+          "ANALOG_E": "K34",
+          "BASUW": "xxx",
+          "TIEFE": 11.0,
+          "NFK": 228.8,
+          "FK": 360.3,
+          "LK": 123.7,
+          "KAK": 249.5,
+          "EROD": 0.54,
+          "KF": 13.4,
+          "KAP": 0.0,
+          "OFA": 19.0,
+          "LK4": 11.2,
+          "LKNFK": 58.3,
+          "DEN_0_5": "den_0",
+          "DEN_6_10": "den_0",
+          "DEN_11_20": "den_0",
+          "FEU": "feu31",
+          "OFAKLA": "ofa_500",
+          "OFA_GWS": "sehr hoch - Grundwasser ist nicht vorhanden",
+          "NEI": "WA",
+          "SIC": "sic_4",
+          "FIL": "FIL_35",
+          "BFE": "bf5_ff",
+          "BFE_2": "bf4_2m",
+          "BFE_CC": "cc",
+          "GBK_1M": 20.0,
+          "GBK_2M": 20.0,
+          "GBK_NASS": 0.0,
+          "GBK_STAU": 0.0,
+          "VER_KLA": 7.0,
+          "KOR": "31",
+          "FESA": 12.0,
+          "TOHU": 0.2000000002,
+          "BOD_WASSER": "wasserfrei",
+          "KERN": "K34",
+          "TYP": "K",
+          "HPTTYP": "K",
+          "ART": 3.0,
+          "DIC": 4.0,
+          "GW_STUFE": 0.0,
+          "SW_STUFE": 0.0,
+          "TYP_TEXT": "Kolluvisol",
+          "ART_TEXT": "tonig-schluffig",
+          "DIC_TEXT": "10 bis 20 dm",
+          "EIN_TEXT": "Kolluvisol oberste Bodenartenschicht tonig-schluffig 10 bis 20 dm",
+          "KERNFOLGE": 60034.0,
+          "FAR_NAME": "L_046",
+          "SCH_NAME": "uni",
+          "BLATT": "L4704",
+          "KJAHR": 1968.0,
+          "ZPH_A": 6.4,
+          "ZPH_G": 5.7,
+          "SBDA": "Ut2",
+          "BBODSCHV": "Lehm/Schluff",
+          "LUFA_BDA": "lU",
+          "LUFA_TXT": "lehmiger Schluff",
+          "LUFA_GRP": 3.0,
+          "SBDA_TXT": "schwach toniger Schluff",
+          "ERD_WLF_1": 1.41,
+          "ERD_WLF_2": 3.0161,
+          "WAS_AC": 229.0,
+          "GWEINAC": 0.0,
+          "WAS_GR": 187.0,
+          "GWEINGR": 0.0,
+          "T3_AC": 11.0,
+          "T3_GR": 9.0,
+          "GWO": 99.0,
+          "NFK_GR": 187.2,
+          "NFKWEGR": 9.0,
+          "BBK": "uk",
+          "BBK_NRW": "nrw_uf",
+          "L_MOOR_K": "unter_15",
+          "L_TON_K": "geringer_Tongehalt",
+          "LOK_HUMUS": " ",
+          "LOK_TORFE": " ",
+          "LOK_WASSER": " ",
+          "BKOMPV": 6.0,
+          "FL_NUM": 1,
+          "Shape_Length": 3895.39537326628,
+          "Shape_Area": 160226.1756446647
+        },
+        {
+          "fid": 2,
+          "OBJECTID": 2,
+          "Name": "L4704_S-G331GWA6",
+          "AREAhaBK50": 7.79617230983,
+          "GW_CODE": "GWA6",
+          "SW_CODE": "SW0",
+          "GW_TIEFE": 50.0,
+          "LF_TIEFE": 0.0,
+          "BWZ_1": 40.0,
+          "BWZ_2": 60.0,
+          "BWZ_M": 50.0,
+          "ANALOG_E": "S-G33",
+          "BASUW": "2-3",
+          "TIEFE": 11.0,
+          "NFK": 174.0,
+          "FK": 298.9,
+          "LK": 150.6,
+          "KAK": 157.8,
+          "EROD": 0.52,
+          "KF": 29.2,
+          "KAP": 0.0,
+          "OFA": 15.0,
+          "LK4": 10.7,
+          "LKNFK": 54.3,
+          "DEN_0_5": "den_0",
+          "DEN_6_10": "den_0",
+          "DEN_11_20": "den_0",
+          "FEU": "feu32",
+          "OFAKLA": "ofa_4-1",
+          "OFA_GWS": "hoch - Grundwasser ist 2 bis 6 dm tiefer als der optimale Flurabstand",
+          "NEI": "WA",
+          "SIC": "sic_4",
+          "FIL": "FIL_43",
+          "BFE": "bf4_2m",
+          "BFE_2": "bf0_00",
+          "BFE_CC": "cc",
+          "GBK_1M": 20.0,
+          "GBK_2M": 10.0,
+          "GBK_NASS": 2.0,
+          "GBK_STAU": 0.0,
+          "VER_KLA": 7.0,
+          "KOR": "11",
+          "FESA": 100.500000018,
+          "TOHU": 0.0,
+          "BOD_WASSER": "wasserfrei",
+          "KERN": "S-G33",
+          "TYP": "S-G",
+          "HPTTYP": "G",
+          "ART": 3.0,
+          "DIC": 3.0,
+          "GW_STUFE": 6.0,
+          "SW_STUFE": 0.0,
+          "TYP_TEXT": "Pseudogley-Gley",
+          "ART_TEXT": "tonig-schluffig",
+          "DIC_TEXT": "6 bis 10 dm",
+          "EIN_TEXT": "Pseudogley-Gley oberste Bodenartenschicht tonig-schluffig 6 bis 10 dm",
+          "KERNFOLGE": 57833.0,
+          "FAR_NAME": "A_242",
+          "SCH_NAME": "schwarz_50",
+          "BLATT": "L4704",
+          "KJAHR": 1968.0,
+          "ZPH_A": 6.4,
+          "ZPH_G": 5.7,
+          "SBDA": "Ut3",
+          "BBODSCHV": "Lehm/Schluff",
+          "LUFA_BDA": "lU",
+          "LUFA_TXT": "lehmiger Schluff",
+          "LUFA_GRP": 3.0,
+          "SBDA_TXT": "toniger Schluff",
+          "ERD_WLF_1": 1.4081,
+          "ERD_WLF_2": 1.31,
+          "WAS_AC": 174.0,
+          "GWEINAC": 9.0,
+          "WAS_GR": 161.0,
+          "GWEINGR": 9.0,
+          "T3_AC": 11.0,
+          "T3_GR": 9.0,
+          "GWO": 50.0,
+          "NFK_GR": 160.3,
+          "NFKWEGR": 9.0,
+          "BBK": "(uu)/ft",
+          "BBK_NRW": "nrw_uf",
+          "L_MOOR_K": "unter_15",
+          "L_TON_K": "geringer_Tongehalt",
+          "LOK_HUMUS": " ",
+          "LOK_TORFE": " ",
+          "LOK_WASSER": " ",
+          "BKOMPV": 4.0,
+          "FL_NUM": 2,
+          "Shape_Length": 2601.358329267297,
+          "Shape_Area": 77961.72309834427
+        }
+      ]
+    },
+    "ATKIS": {
+      "row_count": 132383,
+      "columns": [
+        {
+          "cid": 0,
+          "name": "fid",
+          "type": "INTEGER",
+          "notnull": 1,
+          "dflt_value": null,
+          "pk": 1
+        },
+        {
+          "cid": 1,
+          "name": "geom",
+          "type": "POLYGON",
+          "notnull": 0,
+          "dflt_value": null,
+          "pk": 0
+        },
+        {
+          "cid": 2,
+          "name": "OBJECTID",
+          "type": "INTEGER",
+          "notnull": 0,
+          "dflt_value": null,
+          "pk": 0
+        },
+        {
+          "cid": 3,
+          "name": "RegBez",
+          "type": "TEXT(50)",
+          "notnull": 0,
+          "dflt_value": null,
+          "pk": 0
+        },
+        {
+          "cid": 4,
+          "name": "PlaReg",
+          "type": "TEXT(50)",
+          "notnull": 0,
+          "dflt_value": null,
+          "pk": 0
+        },
+        {
+          "cid": 5,
+          "name": "NatNae",
+          "type": "REAL",
+          "notnull": 0,
+          "dflt_value": null,
+          "pk": 0
+        },
+        {
+          "cid": 6,
+          "name": "Shape_Length",
+          "type": "REAL",
+          "notnull": 0,
+          "dflt_value": null,
+          "pk": 0
+        },
+        {
+          "cid": 7,
+          "name": "Shape_Area",
+          "type": "REAL",
+          "notnull": 0,
+          "dflt_value": null,
+          "pk": 0
+        }
+      ],
+      "sample_rows_for_structure_only": [
+        {
+          "fid": 1,
+          "OBJECTID": 1,
+          "RegBez": "Arnsberg",
+          "PlaReg": "Arnsberg",
+          "NatNae": 0.0,
+          "Shape_Length": 564.7403157300158,
+          "Shape_Area": 11598.253300111046
+        },
+        {
+          "fid": 2,
+          "OBJECTID": 2,
+          "RegBez": "Arnsberg",
+          "PlaReg": "Arnsberg",
+          "NatNae": 0.0,
+          "Shape_Length": 125.23199035016461,
+          "Shape_Area": 999.4158610415897
+        }
+      ]
+    },
+    "BK50_ATKIS": {
+      "row_count": 598522,
+      "columns": [
+        {
+          "cid": 0,
+          "name": "fid",
+          "type": "INTEGER",
+          "notnull": 1,
+          "dflt_value": null,
+          "pk": 1
+        },
+        {
+          "cid": 1,
+          "name": "geom",
+          "type": "POLYGON",
+          "notnull": 0,
+          "dflt_value": null,
+          "pk": 0
+        },
+        {
+          "cid": 2,
+          "name": "OBJECTID",
+          "type": "INTEGER",
+          "notnull": 0,
+          "dflt_value": null,
+          "pk": 0
+        },
+        {
+          "cid": 3,
+          "name": "Name",
+          "type": "TEXT(30)",
+          "notnull": 0,
+          "dflt_value": null,
+          "pk": 0
+        },
+        {
+          "cid": 4,
+          "name": "AREAhaBK50",
+          "type": "REAL",
+          "notnull": 0,
+          "dflt_value": null,
+          "pk": 0
+        },
+        {
+          "cid": 5,
+          "name": "BFE",
+          "type": "TEXT(254)",
+          "notnull": 0,
+          "dflt_value": null,
+          "pk": 0
+        },
+        {
+          "cid": 6,
+          "name": "BFE_2",
+          "type": "TEXT(254)",
+          "notnull": 0,
+          "dflt_value": null,
+          "pk": 0
+        },
+        {
+          "cid": 7,
+          "name": "BFE_CC",
+          "type": "TEXT(254)",
+          "notnull": 0,
+          "dflt_value": null,
+          "pk": 0
+        },
+        {
+          "cid": 8,
+          "name": "BKOMPV",
+          "type": "REAL",
+          "notnull": 0,
+          "dflt_value": null,
+          "pk": 0
+        },
+        {
+          "cid": 9,
+          "name": "RegBez",
+          "type": "TEXT(50)",
+          "notnull": 0,
+          "dflt_value": null,
+          "pk": 0
+        },
+        {
+          "cid": 10,
+          "name": "PlaReg",
+          "type": "TEXT(50)",
+          "notnull": 0,
+          "dflt_value": null,
+          "pk": 0
+        },
+        {
+          "cid": 11,
+          "name": "NatNae",
+          "type": "REAL",
+          "notnull": 0,
+          "dflt_value": null,
+          "pk": 0
+        },
+        {
+          "cid": 12,
+          "name": "Shape_Length",
+          "type": "REAL",
+          "notnull": 0,
+          "dflt_value": null,
+          "pk": 0
+        },
+        {
+          "cid": 13,
+          "name": "Shape_Area",
+          "type": "REAL",
+          "notnull": 0,
+          "dflt_value": null,
+          "pk": 0
+        },
+        {
+          "cid": 14,
+          "name": "bfe_NN",
+          "type": "TEXT(7)",
+          "notnull": 0,
+          "dflt_value": null,
+          "pk": 0
+        }
+      ],
+      "sample_rows_for_structure_only": [
+        {
+          "fid": 1,
+          "OBJECTID": 1,
+          "Name": "L4704_K341",
+          "AREAhaBK50": 16.022617564466472,
+          "BFE": "bf5_ff",
+          "BFE_2": "bf4_2m",
+          "BFE_CC": "cc",
+          "BKOMPV": 6.0,
+          "RegBez": "Düsseldorf",
+          "PlaReg": "Düsseldorf",
+          "NatNae": 0.0,
+          "Shape_Length": 131.60232820246722,
+          "Shape_Area": 711.9554379179856,
+          "bfe_NN": "bf0_00"
+        },
+        {
+          "fid": 2,
+          "OBJECTID": 2,
+          "Name": "L4704_K341",
+          "AREAhaBK50": 16.022617564466472,
+          "BFE": "bf5_ff",
+          "BFE_2": "bf4_2m",
+          "BFE_CC": "cc",
+          "BKOMPV": 6.0,
+          "RegBez": "Düsseldorf",
+          "PlaReg": "Düsseldorf",
+          "NatNae": 0.0,
+          "Shape_Length": 177.70855373259786,
+          "Shape_Area": 1436.7452041703418,
+          "bfe_NN": "bf0_00"
+        }
+      ]
+    }
+  }
+}

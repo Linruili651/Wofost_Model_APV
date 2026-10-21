@@ -1,0 +1,4 @@
+# Only needed to select another map unit from the raw official GeoPackage/ONP table.
+openpyxl>=3.1,<4
+shapely>=2,<3
+pyproj>=3.6,<4

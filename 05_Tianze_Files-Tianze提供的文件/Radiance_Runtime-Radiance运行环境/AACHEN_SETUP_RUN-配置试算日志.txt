@@ -1,0 +1,38 @@
+{
+  "date": "2026-10-19",
+  "scope": "Aachen Tianze radiation only",
+  "python": "D:\\要放在桌面的东西\\！！毕设\\Update\\Hao_Handoff-交接资料_20261019\\05_Tianze_Files-Tianze提供的文件\\Radiance_Runtime-Radiance运行环境\\.venv\\Scripts\\python.exe",
+  "python_version": "3.13.5 | packaged by Anaconda, Inc. | (main, Jun 12 2025, 16:37:03) [MSC v.1929 64 bit (AMD64)]",
+  "packages": {
+    "bifacial-radiance": "0.5.4",
+    "pvlib": "0.16.1",
+    "numpy": "2.5.4",
+    "pandas": "3.0.6"
+  },
+  "downloaded_native_root": "D:\\要放在桌面的东西\\！！毕设\\Update\\Hao_Handoff-交接资料_20261019\\05_Tianze_Files-Tianze提供的文件\\Radiance_Runtime-Radiance运行环境\\Radiance_6.0.2",
+  "execution_native_root": "C:\\Users\\ARIA.LI\\AppData\\Local\\Temp\\Tianze_Aachen_Radiance_c4f02efcb4a3",
+  "programs": {
+    "rtrace": "C:\\Users\\ARIA.LI\\AppData\\Local\\Temp\\Tianze_Aachen_Radiance_c4f02efcb4a3\\bin\\rtrace.EXE",
+    "oconv": "C:\\Users\\ARIA.LI\\AppData\\Local\\Temp\\Tianze_Aachen_Radiance_c4f02efcb4a3\\bin\\oconv.EXE",
+    "genbox": "C:\\Users\\ARIA.LI\\AppData\\Local\\Temp\\Tianze_Aachen_Radiance_c4f02efcb4a3\\bin\\genbox.EXE",
+    "xform": "C:\\Users\\ARIA.LI\\AppData\\Local\\Temp\\Tianze_Aachen_Radiance_c4f02efcb4a3\\bin\\xform.EXE",
+    "gendaylit": "C:\\Users\\ARIA.LI\\AppData\\Local\\Temp\\Tianze_Aachen_Radiance_c4f02efcb4a3\\bin\\gendaylit.EXE",
+    "gencumulativesky": "D:\\要放在桌面的东西\\！！毕设\\Update\\Hao_Handoff-交接资料_20261019\\05_Tianze_Files-Tianze提供的文件\\Radiance_Runtime-Radiance运行环境\\.venv\\Lib\\site-packages\\bifacial_radiance\\data\\gencumulativesky.EXE"
+  },
+  "rtrace_version": "RADIANCE 6.0.2 2026-02-02 LBNL (6.0.c1700d56cc)",
+  "rtrace_exit_code": 0,
+  "path_configuration": "current process and children; no permanent system PATH changes"
+}
+START fixed_tilt
+fixed_tilt cell 2 passed 2.1 s
+fixed_tilt cell 3 passed 2.1 s
+fixed_tilt cell 4 passed 2.1 s
+fixed_tilt cell 5 passed 2.1 s
+fixed_tilt cell 6 passed 2.2 s
+fixed_tilt cell 7 passed 2.2 s
+fixed_tilt cell 8 passed 2.2 s
+fixed_tilt cell 9 passed 2.2 s
+fixed_tilt cell 10 passed 2.2 s
+fixed_tilt cell 11 passed 20.9 s
+DONE fixed_tilt passed
+Aachen Radiance smoke run passed. Full record: D:\要放在桌面的东西\！！毕设\Update\Hao_Handoff-交接资料_20261019\05_Tianze_Files-Tianze提供的文件\Radiance_Runtime-Radiance运行环境\AACHEN_SMOKE_CHECK-亚琛短时验证.json

@@ -1,0 +1,6 @@
+{
+  "url": "https://rest.isric.org/soilgrids/v2.0/properties/query?lon=6.088&lat=50.801&property=phh2o&property=soc&property=nitrogen&value=mean",
+  "downloaded_at": "2026-10-20T19:28:42.121968+00:00",
+  "sha256": "61c1e3a7d884df3af67474f10da26b956d0932234a9f4dfe7edf68b0e5f063ef",
+  "status": "gridded_prediction_not_field_measurement"
+}

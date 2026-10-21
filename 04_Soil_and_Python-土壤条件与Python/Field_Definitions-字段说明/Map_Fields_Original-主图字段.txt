@@ -1,0 +1,86 @@
+SPALTENNAME	ERLÄUTERUNG																	PDF ZUR METHODENBESCHREIBUNG
+NAME		BK50_Einheit																	EIN.pdf
+GW_CODE		Grundwasserstufe als Text															GW.pdf
+SW_CODE		Staunässestufe als Text																SN.pdf
+GW_TIEFE	mittlere Tiefe des Grundwasserstands (grundwasserfrei = 99)											GW.pdf
+LF_TIEFE	mittlere Tiefe der Locker- / Festgesteinsgrenze in dm (ohne = 99)	
+BWZ_1		niedrigere Bodenwertzahl (keine Bodenzahl oder Grünlandgrundzahl)										BWZ.pdf
+BWZ_2		höhere Bodenwertzahl (keine Ackerzahl oder Grünlandzahl)											BWZ.pdf
+BWZ_M		mittlere Bodenwertzahl, BWZ_m = (BWZ_1 + BWZ_2)/2												BWZ.pdf
+ANALOG_E	Einheitenbezeichnung der (gedruckten) Bodenkarte; Schlüssel zwischen analogen und digitalen Informationen					ANA.pdf
+BASUW		Basensättigung unter Wald	
+TIEFE		Bezugstiefe der Berechnung in dm														TIE.pdf
+NFK		nutzbare Feldkapazität in mm  bis Bezugstiefe													NFK.pdf
+FK		Feldkapazität in mm bis Bezugstiefe														FK.pdf
+LK		Luftkapazität in mm bis Bezugstiefe														LK.pdf
+KAK		potenzielle Kationenaustauschkapazität in mol/m² bis Bezugstiefe										KAK.pdf
+EROD		Erodibilität, Erodierbarkeit des unbewachsenen Oberbodens											ERO.pdf
+KF		gesättigte Wasserleitfähigkeit in cm/d bis 2 Meter Tiefe											KF.pdf
+KAP		Kapillaraufstieg von Grundwasser in den effektiven Wurzelraum (Bezugstiefe) in mm/d								KAP.pdf
+OFA		optimaler Flurabstand (Grenzflurabstand) in dm für den Aufstieg von Grundwasser in den effektiven Wurzelraum unter ackerbaulicher Nutzung	OFA.pdf
+LK4		Luftkapazität in den obersten 4 dm des Bodens													LK.pdf
+LKNFK		Anteil der engen Grobporen in mm, sie sind je nach Grundwasser- und Staunässestufe Teil der LK oder der (n)FK					LK.pdf/NFK.pdf
+DEN_0_5		Denitrifikationspotenzial im 2-Meter-Raum, 0 bis 5 dm												DEN.pdf
+DEN_6_10	Denitrifikationspotenzial im 2-Meter-Raum, 6 bis 10 dm												DEN.pdf
+DEN_11_20	Denitrifikationspotenzial im 2-Meter-Raum, 11 bis 20 dm												DEN.pdf
+FEU		Ökologische Feuchtestufe															FEU.pdf
+OFAKLA		optimaler Flurabstand, Bewertung														OFA.pdf
+OFA_GWS		optimaler Flurabstand, Vergleich mit aktuellem Grundwasserstand											OFA.pdf
+NEI		Landwirtschaftliche Nutzungseignung														NEI.pdf
+SIC		Versickerungseignung																SIC.pdf
+FIL		Gesamtfilterfähigkeit																FIL.pdf
+BFE		Schutzwürdige Böden, 3. Auflage, primäre Bewertung												BFE.pdf
+BFE_2		Schutzwürdige Böden, 3. Auflage, sekundäre Bewertung												BFE.pdf
+BFE_CC		Schutzwürdige Böden, 3. Auflage, Kalkeinfluss													BFE.pdf
+GBK_1M		Grabbarkeit im 1. Meter, Bewertung														GBK.pdf
+GBK_2M		Grabbarkeit im 2. Meter, Bewertung														GBK.pdf
+GBK_NASS	Grabbarkeit, Einfluss der Grundnässe														GBK.pdf
+GBK_STAU	Grabbarkeit, Einfluss der Staunässe														GBK.pdf
+VER_KLA		Verdichtungsempfindlichkeit, Klassen, die die Bewertungsstufen noch einmal aufteilen								VER.pdf
+KOR		Korrosionswahrscheinlichkeit, Bewertung														KOR.pdf
+FESA		Korrosionswahrscheinlichkeit, Anteil von Fest + Sand + Skelettanteil										KOR.pdf
+TOHU		Korrosionswahrscheinlichkeit, Anteil von Torf + Humusanteil											KOR.pdf
+BOD_WASSER	Korrosionswahrscheinlichkeit, Einstufung des Bodenwassers											KOR.pdf
+KERN		KERN des Einheitensymbols, bestehend aus  TYP  +  ART  +  DIC											EIN.pdf
+TYP		dominierender Bodentyp aus dem Einheitensymbol													TYP.pdf
+HPTTYP		dominierender Bodenhaupttyp aus dem Einheitensymbol												TYP.pdf
+ART		Bodenartengruppe der obersten Bodenartenschicht													BDA.pdf
+DIC		Stufe der Schichtdicke der obersten Bodenartenschicht												BDA.pdf
+GW_STUFE	Ziffer der Grundwasserstufe															GW.pdf
+SW_STUFE	Ziffer der Staunässestufe															SN.pdf
+TYP_TEXT	Textversion von TYP																TYP.pdf
+ART_TEXT	Textversion von ART																BDA.pdf
+DIC_TEXT	Textversion von DIC																BDA.pdf
+EIN_TEXT	als TEXT verbalisierte BK50_Einheit aus  TYP_TEXT  +  ART_TEXT  +  DIC_TEXT									EIN.pdf
+KERNFOLGE	auf KERN gestützte Dartellungsreihenfolge der Einheiten	
+FAR_NAME	Name der zugewiesenen Flächenfarbe der BK50_Einheit	
+SCH_NAME	Name der zugewiesenen Schraffurfarbe der BK50_Einheit	
+BLATT		Blattnummer der (gedruckten) BK50-Karten, der (geplotteten) Randblätter oder der (überarbeiteten) Teilblätter					EIN.pdf
+KJAHR		Jahr der Kartierung bzw. der letzten grundlegenden Überarbeitung	
+ZPH_A		Ziel-pH-Wert (CaCl2) bei Ackernutzung nach Landwirtschaftskammer NRW										ZPH.pdf
+ZPH_G		Ziel-pH-Wert (CaCl2) bei Grünlandnutzung nach Landwirtschaftskammer NRW										ZPH.pdf
+SBDA		Bodenart im Oberboden - mittlere nach KA5, Kürzel												BDA.pdf
+BBODSCHV	Bodenart im Oberboden - Hauptbodenart nach BBodSchV												BDA.pdf
+LUFA_BDA	Bodenart im Oberboden - Bodenart nach LUFA NRW, Kürzel												BDA.pdf
+LUFA_TXT	Bodenart im Oberboden - Bodenart nach LUFA NRW, Gruppe UND Kürzel UND Text									BDA.pdf
+LUFA_GRP	Bodenart im Oberboden - Bodenart nach LUFA NRW, Gruppe												BDA.pdf
+SBDA_TXT	Bodenart im Oberboden - mittlere nach KA5, Text													BDA.pdf
+ERD_WLF_1	Eignung für Erdwärmekollektoren - Wärmeleitfähigkeit im 1. Meter										ERD.pdf
+ERD_WLF_2	Eignung für Erdwärmekollektoren - Wärmeleitfähigkeit im 2. Meter										ERD.pdf
+WAS_AC		Wasserversorgung von Kulturpflanzen, Acker													WAS.pdf
+GWEINAC		Wasserversorgung von Kulturpflanzen, Acker, Grundwassereinfluss											WAS.pdf
+WAS_GR		Wasserversorgung von Kulturpflanzen, Grünland													WAS.pdf
+GWEINGR		Wasserversorgung von Kulturpflanzen, Grünland, Grundwassereinfluss										WAS.pdf
+T3_AC		Wasserversorgung von Kulturpflanzen, Acker, Tiefe mit Kapillaraufstieg unter 3 mm/d								WAS.pdf
+T3_GR		Wasserversorgung von Kulturpflanzen, Grünland, Tiefe mit Kapillaraufstieg unter 3 mm/d								WAS.pdf
+GWO		gerundeter Grundwasserstand zum Vergleich mit "T3"												WAS.pdf
+NFK_GR		Wasserversorgung von Kulturpflanzen, nutzbare Feldkapazität bei Grünland									NFK.pdf
+NFKWEGR		Wasserversorgung von Kulturpflanzen, effektiver Wurzelraum bei Grünland										TIE.pdf
+BBK		Geogenese der BK50 interpretiert für die Bodenbelastungskarte	
+BBK_NRW		Geogenese der BK50 interpretiert für die Bodenbelastungskarte, generalisiert auf NRW	
+L_MOOR_K	Landesmoorkulisse (BK50) - Angaben zur organischen Substanz über 15 % in den obersten 4 dm							LandesMoorkulisse.pdf
+L_TON_K		Landestonkulisse (BK50) - klassifizierter Tongehalt in den obersten 4 dm									LandesTonkulisse.pdf
+LOK_HUMUS	Humosität im 1. und 2. Meter															LandesOberbodenkulisse.pdf
+LOK_TORFE	Torfe im 1. und 2. Meter															LandesOberbodenkulisse.pdf
+LOK_WASSER	Grundwasser im 1. und 2. Meter															LandesOberbodenkulisse.pdf
+BKOMPV		Bundeskompensationsverordnung (BK50) - Interpretation der BFE auf eine sechsstufige Skala.							BkompV.pdf

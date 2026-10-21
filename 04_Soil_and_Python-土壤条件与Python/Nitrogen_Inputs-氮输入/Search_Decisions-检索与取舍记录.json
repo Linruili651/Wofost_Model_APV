@@ -1,0 +1,27 @@
+{
+  "date": "2026-10-20",
+  "sources_checked": [
+    {
+      "source": "NRW 2026 Nmin winter/summer pages",
+      "result": "Downloaded. Regional seasonal total mineral N, not full-profile NO3/NH4 initial conditions for an identified Aachen plot."
+    },
+    {
+      "source": "Official WOFOST crop_parameters wofost81 branch",
+      "result": "Six original crop/variety sets downloaded and hashes preserved."
+    },
+    {
+      "source": "Official PCSE SNOMIN examples 12/15 and installed PCSE 6.0.13 source",
+      "result": "Complete sourced technical soil/N example and model coefficients available; not local observations."
+    },
+    {
+      "source": "ISRIC SoilGrids REST property query",
+      "result": "Aachen-area request timed out. WCS capability endpoint responded; exploratory WMS point query returned no values. No SoilGrids numerical values used."
+    },
+    {
+      "source": "Juelich/Selhausen public station overview",
+      "url": "https://www.fz-juelich.de/en/ibg/ibg-3/research-groups/environmental-processes-and-technologies/terrestrial-observation-platforms/icos/selhausen-agricultural-station/",
+      "result": "Monitoring context identified; no complete dated full-profile mineral-N/management input for the user field retrieved."
+    }
+  ],
+  "interpretation": "Not found for this field is not proof that no data exist. No guessed NH4/NO3 split or deep-layer zero was inserted."
+}

@@ -1,0 +1,94 @@
+Die JDM-Datei beschreibt "Je Dezimeter", daher ihr Name, auswertungsrelevante Bodenkennwerte, die aus der BK50 (oder BK5) berechnet wurden. 
+
+Die Kennwerte werden pro Bodeneinheit jeweils für den 1. bis 20. Dezimeter gelistet. Die schichtbezogenen Kennwerte der ONP werden entsprechend gemittelt bzw. aufsummiert. 
+
+Unvollständige Schichten werden unter einem Flächenanteil von 40 % je Bodeneinheit herausgerechnet, bei einem Anteil über 40 % je Schicht auf 100 % aufgerundet.
+
+
+
+
+
+SPALTE	EINHEIT	ERLÄUTERUNG				
+
+EINHEIT_NAME	-	BK50_Einheit				
+
+GW_CODE		-	Grundwasserstufe als Text				
+
+SW_CODE		-	Stauwasserstufe als Text				
+
+GW_STUFE	-	Ziffer der Grundwasserstufe				
+
+SW_STUFE	-	Ziffer der Staunässestufe				
+
+GW_TIEFE	dm	mittlere Tiefe des Grundwasserstands in dm (grundwasserfrei = 99)				
+
+LF_TIEFE	dm	mittlere Tiefe der Locker- / Festgesteinsgrenze in dm (ohne = 99)				
+
+WE_GW_WEA	-	Charakterisierung der Tiefenstufe für We Acker durch we, gw, --, zz und xx				
+
+WE_GW_WEG	-	Charakterisierung der Tiefenstufe für We Grünland durch we, gw, --, zz und xx				
+
+WE_GW_T15	-	Charakterisierung der Tiefenstufe für We Wald (15 dm) durch we, gw, --, zz und xx				
+
+WE_GW_T20	-	Charakterisierung der Tiefenstufe für We 2-Meter-Raum durch gw, --, zz und xx				
+
+TIEFE		dm	Bezugstiefe der Berechnung für die Werte der gleichen Zeile: 1 bis 20 dm				
+
+FELS_TIE	Vol.-% 	mittlerer Volumenanteil von Fels bis zur Tiefe				
+
+STEIN_TIE	Vol.-% 	mittlerer Volumenanteil von Steinen bis zur Tiefe				
+
+KIES_TIE	Vol.-% 	mittlerer Volumenanteil von Kies bis zur Tiefe				
+
+FEST_TIE	Vol.-% 	mittlerer Volumenanteil von Fels + Steinen + Kies bis zur Tiefe				
+
+SAND_TIE	Vol.-% 	mittlerer Volumenanteil von Sand bis zur Tiefe				
+
+SILT_TIE	Vol.-% 	mittlerer Volumenanteil von Schluff bis zur Tiefe				
+
+TON_TIE		Vol.-% 	mittlerer Volumenanteil von Ton bis zur Tiefe				
+
+TORF_TIE	Vol.-% 	mittlerer Volumenanteil von Torf bis zur Tiefe				
+
+XM_FEIN_TIE	Vol.-% 	mittlerer Volumenanteil von Grobboden im Feinboden (Ton + Schluff + Sand) bis zur Tiefe				
+
+HM_FEIN_TIE	Vol.-% 	mittlerer Volumenanteil von Humus im Feinboden (Ton + Schluff + Sand) bis zur Tiefe in dm				
+
+KM_FEIN_TIE	Vol.-% 	mittlerer Volumenanteil von Karbonat im Feinboden (Ton + Schluff + Sand) bis zur Tiefe				
+
+NFK_TIE		mm	mittlere nutzbare Feldkapazität in  mm bis zur Tiefe				
+
+LK_TIE		mm	aufsummierte Luftkapazität in mm bis zur Tiefe				
+
+FK_TIE		mm	aufsummierte Feldkapazität in mm bis zur Tiefe				
+
+KF_TIE		cm/d	mittlere gesättigte Wasserleitfähigkeit in cm/d bis zur Tiefe				
+
+KAK_TIE		mol/m²	aufsummierte Kationenaustauschkapazität im mol/m² bis zur Tiefe				
+
+LD_TIE		g/cm³	Lagerungsdichte bzw. Trockenraumdichte in g/cm³, berechnet nach: (1 - (LK_TIE + FK_TIE) / 100) * 2.65				
+
+SYNTH_BDA_TIE	-	die aus Ton + Schluff + Sand -als 100% angesetzt!- berechnete SYNTHetische FEIN-Bodenart bis zur Tiefe				
+
+KAP_TIE_A	mm/d	schichtspezifische Kapillaraufstiegsrate - Acker - in den We in mm/d; bis We := 0; unterhalb We und grundwasserfrei := 0				
+
+KAP_TIE_G	mm/d	schichtspezifische Kapillaraufstiegsrate - Grünland - in den We in mm/d; bis We := 0; unterhalb We und grundwasserfrei := 0				
+
+BDA_SCH_NR	-	Ziffern 1 bis maximal 6 zur Kennzeichnung, welche Bodenartenschicht in die Berechnung (neu) eingeht				
+
+HUEK_4220	HUEK   	HOELTING Bodenart nach DIN 4022				
+
+G_P_2M		S/1    	HOELTING-GL- oder -P-Punkte je Bodenart nach DIN 4022 je Meter (5 bis 400)  				
+
+G_P_DM		S/10   	HOELTING-GL- oder -P-Punkte je Bodenart nach DIN 4022 je Dezimeter (0.5 bis 40)				
+
+G_P_SUM		-    	Summe der HOELTING-GL- oder -P-Punkte je Bodenart nach DIN 4022 je Dezimeter im 2. Meter				
+
+WEA		dm	effektive Durchwurzelungstiefe - Acker - [KRZ]				
+
+WEG		dm	effektive Durchwurzelungstiefe - Grünland - [KRZ]				
+
+T15		dm	effektive Durchwurzelungstiefe - Wald (15 dm) - [berechnet]				
+
+T20		dm	effektive Durchwurzelungstiefe - 2-Meter-Raum - [berechnet]				
+

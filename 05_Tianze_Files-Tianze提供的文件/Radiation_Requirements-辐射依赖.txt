@@ -1,0 +1,5 @@
+# Optional. Prefer the EXACT environment in which Tianze tested the originals.
+# Their files did not pin versions; actual Radiance compatibility remains unverified here.
+bifacial-radiance
+pvlib
+# Radiance (rtrace, oconv, genbox, xform) and gencumulativesky require separate installation.

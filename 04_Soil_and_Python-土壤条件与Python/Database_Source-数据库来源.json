@@ -1,0 +1,12 @@
+{
+  "download_date_Europe_Berlin": "2026-10-19",
+  "url": "https://www.opengeodata.nrw.de/produkte/geologie/boden/BK/ISBK50/ISBK50_EPSG25832_GeoPackage.zip",
+  "content_length": 640838185,
+  "last_modified": "Thu, 12 Mar 2026 08:34:28 GMT",
+  "etag": "\"26326a29-64ccf9ee4cd00\"",
+  "note": "Server Last-Modified describes the downloaded object; portal metadata dates may differ.",
+  "sha256": "ab1fd591ed9b18864b3abc37acac054fa303e88c0b145939e7bdf1bbaf57b453",
+  "zip_crc_check": "passed",
+  "archive_entry_count": 8461,
+  "uncompressed_bytes": 1806523206
+}

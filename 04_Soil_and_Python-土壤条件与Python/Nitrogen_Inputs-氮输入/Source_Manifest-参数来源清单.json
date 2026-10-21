@@ -1,0 +1,99 @@
+[
+  {
+    "path": "Source_Records-来源记录/Official_SNOMIN_Example-官方氮模块示例.ipynb",
+    "url": "https://github.com/ajwdewit/pcse_notebooks/blob/4719f3b931137135b79993ecbdf46c29cd3f53eb/12%20Simulating%20with%20WOFOST%208.1%20SNOMIN.ipynb",
+    "sha256": "6ea6d6be8b1efa658ee82803aff42d93855296bc3816628bf064aaacad4f1187",
+    "retrieved": "2026-10-20",
+    "kind": "complete_reference_example"
+  },
+  {
+    "path": "Source_Records-来源记录/Official_SoilGrids_Example-官方土壤网格示例.ipynb",
+    "url": "https://github.com/ajwdewit/pcse_notebooks/blob/4719f3b931137135b79993ecbdf46c29cd3f53eb/15_Run_Wofost81_SNOMIN_with_SoilGrids.ipynb",
+    "sha256": "1cf272b827e679bb634ea8806a58ba2e0e4fabb9f5e0e4c544cf939e9a18db1b",
+    "retrieved": "2026-10-20",
+    "kind": "input_acquisition_reference_not_executed"
+  },
+  {
+    "path": "Source_Records-来源记录/Official_Hydraulic_Functions-官方水力函数.py",
+    "url": "https://raw.githubusercontent.com/ajwdewit/pcse_notebooks/4719f3b931137135b79993ecbdf46c29cd3f53eb/data/wofost81/vangenuchten.py",
+    "sha256": "d053dac0c0bbe4af328f553d4380720c57c71cf70f1c7e129941bc52210f9883",
+    "retrieved": "2026-10-20",
+    "kind": "hydraulic_formula_source"
+  },
+  {
+    "path": "Source_Records-来源记录/NRW_Nmin_Summer-NRW夏作物矿质氮.html",
+    "url": "https://www.landwirtschaftskammer.de/landwirtschaft/ackerbau/duengung/basisinfos/nmin/nmin-sommerungen.htm",
+    "sha256": "789595dc7c35ce9bab15143b1eaecc41fc92512fb49e5288306709df2082951c",
+    "retrieved": "2026-10-20",
+    "kind": "regional_reference_only_not_N_speciation_or_field_measurement"
+  },
+  {
+    "path": "Source_Records-来源记录/NRW_Nmin_Winter-NRW冬作物矿质氮.html",
+    "url": "https://www.landwirtschaftskammer.de/landwirtschaft/ackerbau/duengung/basisinfos/nmin/nmin-winterungen.htm",
+    "sha256": "f27256204f7dd6f303df71f9c6c3926c6a5290673933750c88531bf6a1f5a2f6",
+    "retrieved": "2026-10-20",
+    "kind": "regional_reference_only_not_N_speciation_or_field_measurement"
+  },
+  {
+    "path": "Crop_Parameters_81-WOFOST81作物参数/wheat-小麦.yaml",
+    "sha256": "b75108b7f075cee6e417a329caabe5850366edc0f9d15edf8bc64c2dcb13ff85",
+    "url": "https://raw.githubusercontent.com/ajwdewit/WOFOST_crop_parameters/1ca91d7dbb5aaf6b41462162de03a8254812d3a5/wheat.yaml",
+    "commit": "1ca91d7dbb5aaf6b41462162de03a8254812d3a5",
+    "retrieved": "2026-10-20",
+    "kind": "WOFOST81_official_generic_crop_parameters_not_Aachen_calibrated"
+  },
+  {
+    "path": "Crop_Parameters_81-WOFOST81作物参数/barley-大麦.yaml",
+    "sha256": "8acf3edf03990039ccc28aad44bf108b1eb5b569c27aa9b01785fb8ab9263a18",
+    "url": "https://raw.githubusercontent.com/ajwdewit/WOFOST_crop_parameters/1ca91d7dbb5aaf6b41462162de03a8254812d3a5/barley.yaml",
+    "commit": "1ca91d7dbb5aaf6b41462162de03a8254812d3a5",
+    "retrieved": "2026-10-20",
+    "kind": "WOFOST81_official_generic_crop_parameters_not_Aachen_calibrated"
+  },
+  {
+    "path": "Crop_Parameters_81-WOFOST81作物参数/maize-玉米.yaml",
+    "sha256": "f1bf8e3202418f294873bb3236727e07a10cd2b91c297b3660d46341a84f469d",
+    "url": "https://raw.githubusercontent.com/ajwdewit/WOFOST_crop_parameters/1ca91d7dbb5aaf6b41462162de03a8254812d3a5/maize.yaml",
+    "commit": "1ca91d7dbb5aaf6b41462162de03a8254812d3a5",
+    "retrieved": "2026-10-20",
+    "kind": "WOFOST81_official_generic_crop_parameters_not_Aachen_calibrated"
+  },
+  {
+    "path": "Crop_Parameters_81-WOFOST81作物参数/potato-马铃薯.yaml",
+    "sha256": "33b9865254521254bb88e3e842f2c66e00c6f6e08b208b7dd22f48f594a56f7e",
+    "url": "https://raw.githubusercontent.com/ajwdewit/WOFOST_crop_parameters/1ca91d7dbb5aaf6b41462162de03a8254812d3a5/potato.yaml",
+    "commit": "1ca91d7dbb5aaf6b41462162de03a8254812d3a5",
+    "retrieved": "2026-10-20",
+    "kind": "WOFOST81_official_generic_crop_parameters_not_Aachen_calibrated"
+  },
+  {
+    "path": "Crop_Parameters_81-WOFOST81作物参数/sugarbeet-甜菜.yaml",
+    "sha256": "99fb4216bbc7ce62f66523d49f30c0d1367d24a5f259b95cf8a879b3d9e66eb1",
+    "url": "https://raw.githubusercontent.com/ajwdewit/WOFOST_crop_parameters/1ca91d7dbb5aaf6b41462162de03a8254812d3a5/sugarbeet.yaml",
+    "commit": "1ca91d7dbb5aaf6b41462162de03a8254812d3a5",
+    "retrieved": "2026-10-20",
+    "kind": "WOFOST81_official_generic_crop_parameters_not_Aachen_calibrated"
+  },
+  {
+    "path": "Crop_Parameters_81-WOFOST81作物参数/soybean-大豆.yaml",
+    "sha256": "b65cf37a478542d74564094dc0760c69bd3cda99452eb6e7d327e457f87ba9a9",
+    "url": "https://raw.githubusercontent.com/ajwdewit/WOFOST_crop_parameters/1ca91d7dbb5aaf6b41462162de03a8254812d3a5/soybean.yaml",
+    "commit": "1ca91d7dbb5aaf6b41462162de03a8254812d3a5",
+    "retrieved": "2026-10-20",
+    "kind": "WOFOST81_official_generic_crop_parameters_not_Aachen_calibrated"
+  },
+  {
+    "path": "Source_Records-来源记录/Installed_Site_Providers-已装版本场地参数.py",
+    "url": "https://pcse.readthedocs.io/en/stable/_modules/pcse/input/sitedataproviders.html",
+    "sha256": "d534ae971e78f17b8dd303c99733dd7304cffefb43c7617a26f5087919532f66",
+    "retrieved": "2026-10-20",
+    "kind": "exact_installed_PCSE_6.0.13_source"
+  },
+  {
+    "path": "Source_Records-来源记录/Installed_SNOMIN_Source-已装版本氮模块.py",
+    "url": "https://pcse.readthedocs.io/en/stable/_modules/pcse/soil/snomin.html",
+    "sha256": "ac5130277fcfe2e4b9b14219fe93c19919a8a91949f6fedb855933dcc34a42b8",
+    "retrieved": "2026-10-20",
+    "kind": "exact_installed_PCSE_6.0.13_source"
+  }
+]

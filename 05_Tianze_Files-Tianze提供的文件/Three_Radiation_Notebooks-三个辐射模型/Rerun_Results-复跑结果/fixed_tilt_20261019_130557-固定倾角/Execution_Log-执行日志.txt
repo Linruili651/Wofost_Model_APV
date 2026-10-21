@@ -1,0 +1,99 @@
+CELL 2
+
+
+CELL 3
+
+
+CELL 4
+
+
+CELL 5
+
+
+CELL 6
+
+
+CELL 7
+
+
+CELL 8
+
+
+CELL 9
+
+
+CELL 10
+Smoke run: 1 daylight hour, 2x2 modules, 4x4 ground grid; both outputs enabled.
+
+
+CELL 11
+path = C:\Users\ARIA.LI\AppData\Local\Temp\agripv_comparison_9d343ffe_ov_bc670\hourly\semi_transparent
+Making path: images
+Making path: objects
+Making path: results
+Making path: skies
+Making path: EPWs
+Making path: materials
+Loading albedo, 1 value(s), 0.200 avg
+1 nonzero albedo values.
+WARNING: TMY interval was unable to be defined, so setting it to 1h.
+Calculating Sun position for Metdata that is right-labeled  with a delta of -30 mins. i.e. 12 is 11:30 sunpos
+Solar period: [2024-06-21T12:00:00, 2024-06-21T13:00:00); TMY weather, not a forecast.
+Weather clock: pvgis_utc; irradiance offset = -0.8176 h from hour end.
+
+Module Name: LONGi_LR5_72HGD_semi_transparent_hourly_9d343ffe
+Module was shifted by 0.091 in X to avoid sensors on air
+This is a Cell-Level detailed module with Packaging Factor of 0.97 
+Created hourly_semi_transparent_2024-06-21_1300_9d343ffe.oct
+Linescan in process: semi_transparent_r01_m01_9d343ffe_2024-06-21_1300_Front
+Linescan in process: semi_transparent_r01_m02_9d343ffe_2024-06-21_1300_Front
+Linescan in process: semi_transparent_r01_m01_9d343ffe_2024-06-21_1300_Back
+Linescan in process: semi_transparent_r01_m02_9d343ffe_2024-06-21_1300_Back
+Saved: results\irr_semi_transparent_r01_m02_9d343ffe_2024-06-21_1300.csv
+Linescan in process: semi_transparent_r02_m01_9d343ffe_2024-06-21_1300_Front
+Saved: results\irr_semi_transparent_r01_m01_9d343ffe_2024-06-21_1300.csv
+Linescan in process: semi_transparent_r02_m02_9d343ffe_2024-06-21_1300_Front
+Linescan in process: semi_transparent_r02_m02_9d343ffe_2024-06-21_1300_Back
+Linescan in process: semi_transparent_r02_m01_9d343ffe_2024-06-21_1300_Back
+Saved: results\irr_semi_transparent_r02_m02_9d343ffe_2024-06-21_1300.csv
+Saved: results\irr_semi_transparent_r02_m01_9d343ffe_2024-06-21_1300.csv
+Linescan in process: ground_semi_transparent_2024-06-21_1300_9d343ffe_Front
+Saved: results\irr_ground_semi_transparent_2024-06-21_1300_9d343ffe.csv
+semi_transparent: completed 1 hourly intervals.
+path = C:\Users\ARIA.LI\AppData\Local\Temp\agripv_comparison_9d343ffe_ov_bc670\hourly\conventional
+Making path: images
+Making path: objects
+Making path: results
+Making path: skies
+Making path: EPWs
+Making path: materials
+Loading albedo, 1 value(s), 0.200 avg
+1 nonzero albedo values.
+
+Module Name: LONGi_LR5_72HGD_conventional_hourly_9d343ffe
+Created hourly_conventional_2024-06-21_1300_9d343ffe.oct
+Linescan in process: conventional_r01_m01_9d343ffe_2024-06-21_1300_Front
+Linescan in process: conventional_r01_m02_9d343ffe_2024-06-21_1300_Front
+Linescan in process: conventional_r01_m02_9d343ffe_2024-06-21_1300_Back
+Linescan in process: conventional_r01_m01_9d343ffe_2024-06-21_1300_Back
+Saved: results\irr_conventional_r01_m02_9d343ffe_2024-06-21_1300.csv
+Linescan in process: conventional_r02_m01_9d343ffe_2024-06-21_1300_Front
+Saved: results\irr_conventional_r01_m01_9d343ffe_2024-06-21_1300.csv
+Linescan in process: conventional_r02_m02_9d343ffe_2024-06-21_1300_Front
+Linescan in process: conventional_r02_m02_9d343ffe_2024-06-21_1300_Back
+Linescan in process: conventional_r02_m01_9d343ffe_2024-06-21_1300_Back
+Saved: results\irr_conventional_r02_m02_9d343ffe_2024-06-21_1300.csv
+Saved: results\irr_conventional_r02_m01_9d343ffe_2024-06-21_1300.csv
+Linescan in process: ground_conventional_2024-06-21_1300_9d343ffe_Front
+Saved: results\irr_ground_conventional_2024-06-21_1300_9d343ffe.csv
+conventional: completed 1 hourly intervals.
+                  hour_start                   hour_end  duration_h                   solar_timestamp  semi_transparent_array_front_effective_incident_energy_Wh_hour  semi_transparent_array_rear_effective_incident_energy_Wh_hour  conventional_array_front_effective_incident_energy_Wh_hour  conventional_array_rear_effective_incident_energy_Wh_hour
+0  2024-06-21T12:00:00+01:00  2024-06-21T13:00:00+01:00         1.0  2024-06-21T12:10:56.640000+01:00                                                     8649.190832                                                    1152.680835                                                 9369.344796                                                1244.869269
+Hao: 1 hourly rows appended to D:\要放在桌面的东西\！！毕设\Update\Hao_Handoff-交接资料_20261019\05_Tianze_Files-Tianze提供的文件\Three_Radiation_Notebooks-三个辐射模型\Rerun_Results-复跑结果\fixed_tilt_20261019_130557-固定倾角\Hao_Hourly_Radiation-Hao逐小时辐射.csv
+semi_transparent_ground_direct_incident_energy_Wh_period     19944.522321
+semi_transparent_ground_diffuse_incident_energy_Wh_period    12254.768849
+semi_transparent_ground_total_incident_energy_Wh_period      32199.291170
+conventional_ground_direct_incident_energy_Wh_period         19944.522321
+conventional_ground_diffuse_incident_energy_Wh_period        12159.394109
+conventional_ground_total_incident_energy_Wh_period          32103.916430
+Linrui: one cultivation-period row appended to D:\要放在桌面的东西\！！毕设\Update\Hao_Handoff-交接资料_20261019\05_Tianze_Files-Tianze提供的文件\Three_Radiation_Notebooks-三个辐射模型\Rerun_Results-复跑结果\fixed_tilt_20261019_130557-固定倾角\Linrui_Period_Ground_Radiation-Linrui时段地面辐射.csv

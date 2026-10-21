@@ -1,0 +1,38 @@
+{
+  "status": "complete",
+  "radiance_executed": false,
+  "pp_wlp_cases": 36,
+  "pp_wlp_point_seasons": 5412,
+  "managed_cases": 18,
+  "managed_point_seasons": 2706,
+  "potential_reference_point_seasons": 2706,
+  "reproduced_previous_results": true,
+  "elapsed_seconds": 3226.882966041565,
+  "target_validation": {
+    "status": "passed",
+    "completed_cases": 18,
+    "managed_point_seasons": 2706,
+    "potential_point_seasons": 2706,
+    "figures": 1,
+    "figure_files": 3,
+    "target_achieved_cases": 15,
+    "target_not_achieved_cases": 3,
+    "target_above_light_treatment_PP81_reference": 0,
+    "zero_irrigation_baselines": [
+      "grain_maize",
+      "potato",
+      "soybean",
+      "spring_barley",
+      "sugar_beet",
+      "winter_wheat"
+    ],
+    "max_water_balance_residual_mm": 7.815970093361102e-13,
+    "max_nitrogen_balance_residual_kg_N_ha": 1.611188960026766e-11,
+    "field_validated": false,
+    "zero_denominator_policy": "ratio null; absolute values and differences retained",
+    "visual_QA": "Normalised figure inspected; crop outputs are data tables as requested.",
+    "inputs_are_controller_specific_not_proven_minima": true,
+    "per_crop_outputs": "tables, not figures"
+  },
+  "artifact_checks_complete": true
+}

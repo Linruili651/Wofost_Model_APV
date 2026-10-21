@@ -1,0 +1,10 @@
+__pycache__/
+*.py[cod]
+.venv/
+00_Runtime-运行环境/Crop_Python/
+Runtime_Cache-运行缓存/
+10_Delivery_Snapshot-原交付快照/
+*.tmp
+*.lock
+.env
+.env.*
