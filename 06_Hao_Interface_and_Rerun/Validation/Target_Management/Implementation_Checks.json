@@ -1,0 +1,45 @@
+{
+  "status": "passed",
+  "checks": [
+    "syntax",
+    "separate crop baselines",
+    "zero irrigation/N denominator remains null",
+    "absolute differences retained",
+    "saved point mass balances and finite inputs"
+  ],
+  "saved_cases": [
+    {
+      "case": "grain_maize\\open_field",
+      "saved_points": 1
+    },
+    {
+      "case": "potato\\open_field",
+      "saved_points": 1
+    },
+    {
+      "case": "soybean\\open_field",
+      "saved_points": 1
+    },
+    {
+      "case": "spring_barley\\fixed_tilt_conventional",
+      "saved_points": 83
+    },
+    {
+      "case": "spring_barley\\open_field",
+      "saved_points": 1
+    },
+    {
+      "case": "sugar_beet\\open_field",
+      "saved_points": 1
+    },
+    {
+      "case": "winter_wheat\\fixed_tilt_conventional",
+      "saved_points": 35
+    },
+    {
+      "case": "winter_wheat\\open_field",
+      "saved_points": 1
+    }
+  ],
+  "artificial_fixture_records_exported": false
+}

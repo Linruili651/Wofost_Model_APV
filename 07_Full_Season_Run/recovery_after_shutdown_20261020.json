@@ -1,0 +1,12 @@
+{
+  "recovered_at": "2026-10-20T01:12:52.605897+02:00",
+  "reason": "User reported computer shutdown; no project Python processes detected",
+  "previous_process": {
+    "pid": 16740,
+    "status": "running",
+    "started": "2026-10-19 17:12:07"
+  },
+  "completed_days_preserved": 115,
+  "resume_day": "2002-02-07",
+  "input_manifest_verified": true
+}

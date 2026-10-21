@@ -1,0 +1,53 @@
+{
+  "status": "passed",
+  "edition": "English-only presentation and paths; original model equations and numeric inputs retained",
+  "source_engine_sha256": "b1ddf0da6f75354ac312f533da1305d7835ae61ac331a47e73e4404bbd38f0bb",
+  "english_engine_sha256": "e7e3f501f3ccbb5abf1b388bc7443fe2782bc1113b0a1601269ba27957f03ddc",
+  "python_files_parsed": 71,
+  "python_algorithms_identical_after_ignoring_string_literals": 67,
+  "intentional_path_and_historical_provenance_adjustments": [
+    "05_Tianze_Files/Three_Radiation_Notebooks/Run_Three_Models.py",
+    "06_Hao_Interface_and_Rerun/Validation/Nitrogen_Tests.py",
+    "07_Full_Season_Run/run_radiation.py",
+    "09_Project_Records/Final_Rerun_20261021/source_snapshot/07_Full_Season_Run/run_radiation.py"
+  ],
+  "csv_files_numeric_values_unchanged": 3190,
+  "json_files_numeric_values_unchanged": 1080,
+  "notebook_code_cells_parsed": 190,
+  "historical_results_note": "Recorded historical engine/input hashes remain historical evidence, not claims that the English edition generated those runs.",
+  "paired_runtime_check": {
+    "status": "passed",
+    "crop": "spring_barley",
+    "scenario": "Aachen_BK50_SoilGrids_Target",
+    "days": 115,
+    "layer_day_rows": 1840,
+    "comparison": "Exact equality of all scalar metrics, daily numeric arrays and layered-soil numeric arrays.",
+    "initial_mineral_N_kg_ha": 35,
+    "runtime_metrics": {
+      "mature": true,
+      "usable": true,
+      "storage_organ_DM_kg_ha": 5043.301650361887,
+      "biological_N_fixation_kg_N_ha": 0.0,
+      "transpiration_mm": 176.1423385667425,
+      "soil_evaporation_mm": 81.84084618955882,
+      "drainage_bottom_mm": 31.85703192287928,
+      "runoff_mm": 20.27945025431665,
+      "water_balance_residual_mm": -1.1102230246251565e-13,
+      "nitrate_leaching_kg_N_ha": 0.03191088641761458,
+      "ammonium_leaching_kg_N_ha": 0.004254254598073111,
+      "nitrogen_leaching_kg_N_ha": 0.03616514101568769,
+      "denitrification_kg_N_ha": 0.022998639171931054,
+      "model_N_loss_kg_N_ha": 0.06821013910607639,
+      "nitrogen_balance_residual_kg_N_ha": 3.079717036946761e-12,
+      "pcse_native_nitrate_last_layer_out_kg_N_ha": 0.04072842874648187,
+      "pcse_native_ammonium_last_layer_out_kg_N_ha": 0.0044830711876634585,
+      "pcse_native_top_boundary_N_export_kg_N_ha": 1.9106687116919998,
+      "last_layer_internal_upward_N_kg_N_ha": 0.009046358918457648,
+      "initial_soil_total_N_kg_N_ha": 12139.64705882353,
+      "final_soil_total_N_kg_N_ha": 12075.213877447406,
+      "fertilizer_N_applied_kg_N_ha": 0.0,
+      "wet_N_input_kg_N_ha": 12.171027487284167,
+      "soil_N_uptake_kg_N_ha": 74.63437637152518
+    }
+  }
+}

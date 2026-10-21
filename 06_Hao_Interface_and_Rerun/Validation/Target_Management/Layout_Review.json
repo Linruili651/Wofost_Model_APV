@@ -1,0 +1,16 @@
+{
+  "reviewed_at": "2026-10-20T21:42:01.241410+02:00",
+  "status": "partial_checkpoint_layout_review_passed",
+  "figures": [
+    "four-panel crop figure",
+    "normalised yield-ET summary"
+  ],
+  "data": "Actual available checkpoints, not final area-weighted PV results; pending treatments blank",
+  "final_completed_figure_review_pending": false,
+  "preview_included_in_Hao_ZIP": false,
+  "notes": "Separate fertiliser and leaching axes preserve visibility at different scales. Labels and legends inspected.",
+  "final_review": "Completed summary plus representative failed-target/zero-input figures inspected. Final soybean axis fixed; preview images remain excluded from delivery.",
+  "final_reviewed_at": "2026-10-20T23:22:58.493419+02:00",
+  "incomplete_preview_images_deleted": true,
+  "cleanup_audit": "09_Project_Records\\Figure_Cleanup_Audit.json"
+}

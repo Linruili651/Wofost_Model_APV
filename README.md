@@ -1,19 +1,33 @@
-# 最终代码包下载说明（2026-10-21）
+# Aachen APV WOFOST project — English edition
 
-已按用户确认，仅保留代码包；额外的1.7GB原始数据库与全部逐点逐日结果大备份已停止上传。
+This is the English-only edition of the verified final project dated 2026-10-21. Folder names, file names, code references, comments, labels, and documentation use English. The original working project remains unchanged locally.
 
-- 可直接解压的完整代码与复现输入包：Aachen_Hao_Final_Run_20261021_GitHub_Ready.zip（39,555,913字节，4,685个文件）。
-- Google Drive单文件下载：https://drive.google.com/file/d/1lSA3ySaFGG21axucPuUCqG8iufiz4Y6y/view?usp=drivesdk
-- GitHub私有仓库：https://github.com/Linruili651/Wofost_Model_APV
+## Latest nitrogen configuration
 
-来源是 Update/Aachen_Hao_统一运行项目，包含最后一次补上的初始氮设置、补水补氮规则、模型代码、天气与保存的辐射输入，以及2026-10-21最终复跑材料。已核对1168个最终运行代码与输入文件的哈希。
+- Input: `04_Soil_and_Python/Nitrogen_Inputs/Aachen_BK50_SoilGrids_Target.json`
+- Management rules: `02_WLP_Model/Nitrogen_Extension/Target_Management.json`
+- Entry: `02_WLP_Model/Nitrogen_Extension/Run_Target_Inputs.py`
+- Core: `06_Hao_Interface_and_Rerun/Shared_Core/Nitrogen_Engine.py`
+- Final rerun evidence: `09_Project_Records/Final_Rerun_20261021/status.json`
 
-初始矿质氮35kgN/ha（硝态氮30、铵态氮5），含分层有机质、碳氮比和pH估计。氮参数在04/Nitrogen_Inputs下的Aachen_BK50_SoilGrids_Target-目标投入估计情景.json；补氮规则与入口在02/Nitrogen_Extension下。属于估计参数管理实验，尚未经田间验证。
+Initial mineral nitrogen is 35 kg N/ha: 30 nitrate-N plus 5 ammonium-N. The model uses estimated soil organic matter, C:N ratios and pH. Management limits include 80 kg N/ha per application and 400 kg N/ha per season; soybean has a routine mineral-N cap of zero. These are explicitly estimated management experiments, not field-validated Aachen predictions.
 
-从Drive下载ZIP即可直接解压。若仅从GitHub下载：先下载并解压整个仓库，再运行Restore_Portable_Package.ps1，将portable-package目录内19个已校验分块恢复为相同的代码ZIP。GitHub内的部分源码和参数已展开，便于查看；完整项目布局在ZIP内。
+The historical final rerun completed 36 WOFOST7.3 PP/WLP comparisons, 18 WOFOST8.1 technical references and 18 WOFOST8.1 management cases. Historical status, dates and execution hashes are retained as historical evidence. Translation is not a claim of a new calibrated experiment.
 
-代码ZIP的SHA-256：0cba86f4e18903ea3ddb2ca39e97a65ba719d07d4f0a865d5abdd97ab3b60485
+## Run
 
-代码包保留源码、复现输入、依赖清单与汇总/复跑记录；不包含本机虚拟环境、原始BK50数据库ZIP、原生Radiance二进制及全部压缩逐日明细。已有辐射输入可用于作物复跑；重算Radiance需另行准备原生程序。完整核验清单为同目录Verified_Final_Run_Inputs.json。
+Use Windows and the Python launcher with Python 3.11 for crops and Python 3.13 for radiation. Run `Setup_Windows_Environments.ps1` to rebuild dependencies. For the management experiment, read `02_WLP_Model/Nitrogen_Extension/README_Target_Inputs.md` before running its entry point. Preserved daily radiation and weather inputs support crop reruns without recalculating Radiance. Native Radiance programs and the raw BK50 database archive are not part of this code-only distribution.
 
-Partial_Backup_Not_Required-未完成大备份_无需下载 子文件夹仅保存此前少量成功上传的大备份分卷，不完整，无需下载。包内较早的备份计划说明以本页最终范围为准。
+`TRANSLATION_VERIFICATION.json` records syntax, numeric-table and algorithm checks. `ENGLISH_RELEASE_MANIFEST.json` supplies release-file SHA-256 checksums. Updated checkpoint manifests explicitly identify their translation rebase and retain the original execution identity. Source-copy manifests retain original provenance hashes when their presentation copy changed.
+
+## Contents and omissions
+
+Source code, notebooks without saved outputs, model input data, CSV result tables and final rerun records are retained. Historical thesis/Office snapshots, screenshots and pre-rendered figures were removed to avoid embedded Chinese text; numeric source tables and plotting code remain. English summary figures are regenerated from the unchanged result tables. `OMITTED_ARTIFACTS.json` lists excluded items under English names.
+
+Google Drive was not updated, as requested. This English edition is published only to GitHub. Earlier Git commits preserve the previous bilingual delivery; the current branch and portable archive are the English edition.
+
+## Download the complete English project
+
+Download this repository with **Code → Download ZIP**, extract it, and run `Restore_Portable_Package.ps1`. It combines the 13 checked files under `portable-package/` into `Aachen_Hao_English_Code_20261021.zip`. Extract that ZIP to a short directory before execution. The archive contains 4,543 files and includes all preserved CSV result data and input files. Selected source files, notebooks and parameters are also expanded in the repository for review.
+
+Archive SHA-256: `bbd8e06a0cb0756e567cd7a7e2f61dad22115711edd721a0c30e8433d8bed1bd`. Both the individual parts and the reconstructed archive are verified automatically.

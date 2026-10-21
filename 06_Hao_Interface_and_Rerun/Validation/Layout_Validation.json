@@ -1,0 +1,45 @@
+{
+  "date": "2026-10-19",
+  "top_level_folders": [
+    "01_PP_Model",
+    "02_WLP_Model",
+    "03_Precipitation",
+    "04_Soil_and_Python",
+    "05_Tianze_Files",
+    "06_Hao_Interface_and_Rerun"
+  ],
+  "bilingual_visible_names": "passed",
+  "twelve_run_numerical_regression": "passed",
+  "notebooks": [
+    {
+      "file": "01_PP_Model/Run_PP.ipynb",
+      "status": "passed",
+      "scope": "local execution; one actual model crop where applicable; no real Radiance or Colab upload"
+    },
+    {
+      "file": "02_WLP_Model/Run_WLP.ipynb",
+      "status": "passed",
+      "scope": "local execution; one actual model crop where applicable; no real Radiance or Colab upload"
+    },
+    {
+      "file": "06_Hao_Interface_and_Rerun/Model_Overview.ipynb",
+      "status": "passed",
+      "scope": "local execution; one actual model crop where applicable; no real Radiance or Colab upload"
+    },
+    {
+      "file": "06_Hao_Interface_and_Rerun/Y_Usage_Guide.ipynb",
+      "status": "passed",
+      "scope": "local execution; one actual model crop where applicable; no real Radiance or Colab upload"
+    }
+  ],
+  "scope": "organization and paths only; original model assumptions and equations retained",
+  "field_validated": false,
+  "real_radiance_run": false,
+  "nitrogen_model_implemented": false,
+  "model_tests": {
+    "count": 6,
+    "status": "passed"
+  },
+  "summary_paths_portable": true,
+  "software_caches_removed": true
+}

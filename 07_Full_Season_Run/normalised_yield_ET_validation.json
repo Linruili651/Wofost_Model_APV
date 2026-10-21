@@ -1,0 +1,9 @@
+{
+  "source_records": 36,
+  "expected_PV_points": 24,
+  "plotted_PV_points": 24,
+  "valid_open_field_baselines": 12,
+  "denominator": "open_field of the same crop_id and mode",
+  "jitter_applied": false,
+  "missing_or_unusable_yields": "retained as missing; omitted from scatter, never imputed"
+}

@@ -1,121 +1,85 @@
 {
-  "archive": "Aachen_Hao_Final_Run_20261021_GitHub_Ready.zip",
-  "archive_sha256": "0cba86f4e18903ea3ddb2ca39e97a65ba719d07d4f0a865d5abdd97ab3b60485",
-  "archive_bytes": 39555913,
+  "archive": "Aachen_Hao_English_Code_20261021.zip",
+  "archive_bytes": 27179382,
+  "archive_sha256": "bbd8e06a0cb0756e567cd7a7e2f61dad22115711edd721a0c30e8433d8bed1bd",
   "parts": [
     {
-      "name": "Aachen_Hao_Final_Run_20261021_GitHub_Ready.zip.001",
+      "name": "Aachen_Hao_English_Code_20261021.zip.001",
       "bytes": 2097144,
-      "sha256": "24fe15262aee8a62492556612ef28f4b2be7fd893d807b59e5587d0f46a2915e",
-      "git_blob_sha1": "b764cc8e9093d1adbf430f246cb27ba7c7eddeeb"
+      "sha256": "f8b343649cd8f3e9edfc1344929d414a8d3520e7c0bd7983c3f7fe517edf1115",
+      "git_blob_sha1": "351a51b3c4895e93bbe797f256eb0187d49ede72"
     },
     {
-      "name": "Aachen_Hao_Final_Run_20261021_GitHub_Ready.zip.002",
+      "name": "Aachen_Hao_English_Code_20261021.zip.002",
       "bytes": 2097144,
-      "sha256": "8cdbd0e3e05ade7c9173f5fc8fbcde7434f823a7fd31a98515713ab1141f6344",
-      "git_blob_sha1": "c0743b9a07c5326d5c1efffdd635b1f9ffcc930d"
+      "sha256": "b62034488c0c8406d3bdfbdd1f54463b7b352bee15e85a298e6416f9719860e3",
+      "git_blob_sha1": "021df48b5344763f71deacf684823d74d874161c"
     },
     {
-      "name": "Aachen_Hao_Final_Run_20261021_GitHub_Ready.zip.003",
+      "name": "Aachen_Hao_English_Code_20261021.zip.003",
       "bytes": 2097144,
-      "sha256": "d954c7582246f11854d2ab25f41f43051a667d0460fc838e18e0eaa8427f8b26",
-      "git_blob_sha1": "4e6df2e7806a1935b7b1ae531c217cfbae4f1aa0"
+      "sha256": "4ab6012d05790f2ba8d8c8a84ff7d414547bb558d1a1b14897d8c0b2fc68ba3e",
+      "git_blob_sha1": "3cb9a1e7fb5044424fd14f11a1c2c1c813b01d40"
     },
     {
-      "name": "Aachen_Hao_Final_Run_20261021_GitHub_Ready.zip.004",
+      "name": "Aachen_Hao_English_Code_20261021.zip.004",
       "bytes": 2097144,
-      "sha256": "015df71b441d9bd599d406418409cabb6ab08d5530d2a352d1d55b4ff95e2059",
-      "git_blob_sha1": "dde8e74766aecc6d1d4c868d4eca63fa2e9a569f"
+      "sha256": "01b55bf803b78daeaa3931c678774ee7c1098ec95f144ebf6b93386a7ba30315",
+      "git_blob_sha1": "5ff34555a727617377c355d198f28760bcd4471e"
     },
     {
-      "name": "Aachen_Hao_Final_Run_20261021_GitHub_Ready.zip.005",
+      "name": "Aachen_Hao_English_Code_20261021.zip.005",
       "bytes": 2097144,
-      "sha256": "ff255f047ab3936ab36cdcf63b8bde93720532ab2f1fc3af9184abbc88b61c66",
-      "git_blob_sha1": "17420c19606d2eaa2c6a0e9f7c38bd6cf14a2425"
+      "sha256": "61c4885c77922b6a08bc5a8992009e72b31ac2e1ca043c071190a5736d7ed512",
+      "git_blob_sha1": "80e752c864022c4c776b427f63de6d3cad3ca60d"
     },
     {
-      "name": "Aachen_Hao_Final_Run_20261021_GitHub_Ready.zip.006",
+      "name": "Aachen_Hao_English_Code_20261021.zip.006",
       "bytes": 2097144,
-      "sha256": "093e51fabc1cdaacda1778bc02d530404f81299d2bfd7c7b76ef320c1b8168c1",
-      "git_blob_sha1": "41dae9c5bdc6d01371108762b7612dccc526a9d4"
+      "sha256": "f9171818a674f4205c5387a4b29262fe22c30d49f663e6f6e2fde1bd6c9a7814",
+      "git_blob_sha1": "32238b12a39a0a31650ad27547d0481c45e6769c"
     },
     {
-      "name": "Aachen_Hao_Final_Run_20261021_GitHub_Ready.zip.007",
+      "name": "Aachen_Hao_English_Code_20261021.zip.007",
       "bytes": 2097144,
-      "sha256": "ff8c4258e89ddd9ca15e121d9aefa082f26bdd34efed2daa38db94e8de95c64f",
-      "git_blob_sha1": "b6a576248d9e4afbb55186f5fbd3e8b7d22d0769"
+      "sha256": "797383b1c7bc7d7071beba51820a44dcf91d6f2bc550ffcf6a8d0bc0b73e6022",
+      "git_blob_sha1": "ba17c861353d7d340111892b4f21bc6ac7ecf770"
     },
     {
-      "name": "Aachen_Hao_Final_Run_20261021_GitHub_Ready.zip.008",
+      "name": "Aachen_Hao_English_Code_20261021.zip.008",
       "bytes": 2097144,
-      "sha256": "993222f688f1ff45508f396b21ca2355c6a2d364187ef7d89d0964eeb3596712",
-      "git_blob_sha1": "9c20d4705026cc79c080155a5797d4c9ddf13b3a"
+      "sha256": "31d7fe93cd00132253ef3d1663edca9fd5cb98d69cebd06811920d0205025b65",
+      "git_blob_sha1": "89ae79b246a8782575a8de163a26a367f7ee4c11"
     },
     {
-      "name": "Aachen_Hao_Final_Run_20261021_GitHub_Ready.zip.009",
+      "name": "Aachen_Hao_English_Code_20261021.zip.009",
       "bytes": 2097144,
-      "sha256": "fc2511765cb993457292119bba057b97df0f203e84d4687f437c6edb48eb52f4",
-      "git_blob_sha1": "9da3b29ee3755132bc6c91e21ba36dfbb16cf945"
+      "sha256": "ad3a5fac36dfcd21c372e862c23cf9e853db819e6b081d4f85b334cf26dc6f08",
+      "git_blob_sha1": "cf7b4812e72dd8ec917c13d02601ba5cc4092122"
     },
     {
-      "name": "Aachen_Hao_Final_Run_20261021_GitHub_Ready.zip.010",
+      "name": "Aachen_Hao_English_Code_20261021.zip.010",
       "bytes": 2097144,
-      "sha256": "720a56ee9a91efcb55805d8c29deb39be541a4659838b26232a5f87a1d621204",
-      "git_blob_sha1": "9f35a2510861ec30a8609a76c3270d20a9e39988"
+      "sha256": "605535dc17ebbeed64761f91da13121ec0edc3c0ea7cdcd0d51bb62e897263d4",
+      "git_blob_sha1": "7af4c4e033d2f133f418707f6554ef8e832cda79"
     },
     {
-      "name": "Aachen_Hao_Final_Run_20261021_GitHub_Ready.zip.011",
+      "name": "Aachen_Hao_English_Code_20261021.zip.011",
       "bytes": 2097144,
-      "sha256": "f3cd75bcfc404fe50b4e54d1686512cb9a9b840e455fbe46ccf3c1107097ef27",
-      "git_blob_sha1": "2bc52348765ae7d50ce3124eb83187aca16d1477"
+      "sha256": "3628fff74a70f0e300e4687422d77ce46bcf17e42700dad691c26b891e787ca4",
+      "git_blob_sha1": "a283422213c6371805192ccddd6e166773d183b2"
     },
     {
-      "name": "Aachen_Hao_Final_Run_20261021_GitHub_Ready.zip.012",
+      "name": "Aachen_Hao_English_Code_20261021.zip.012",
       "bytes": 2097144,
-      "sha256": "e1b613e57b2c59d07cad6ff14207b0ecfcd2f874c0897fb58d86b431f9f3f118",
-      "git_blob_sha1": "a5035f910cc81839ace24017fa9b87d356415564"
+      "sha256": "c05f969b027a73d5b29a14da406d386cdf5a978c3e257e5876805d52adb96ab3",
+      "git_blob_sha1": "01ca688ddf334675cca9761a1d78c3820ef2e9ea"
     },
     {
-      "name": "Aachen_Hao_Final_Run_20261021_GitHub_Ready.zip.013",
-      "bytes": 2097144,
-      "sha256": "59dc0cb081a2728d667005a0a901e70c7452864cf092f371d363f2deb34213ec",
-      "git_blob_sha1": "73d920f2506abdda1afaeca37c7c448b06d6983b"
-    },
-    {
-      "name": "Aachen_Hao_Final_Run_20261021_GitHub_Ready.zip.014",
-      "bytes": 2097144,
-      "sha256": "5c06d9fb430775a421582ab5f28f98d40bbfa679ed9544863bd136cc7c48f8f0",
-      "git_blob_sha1": "99e49de23d7d935f918982f143ae67f5537c8281"
-    },
-    {
-      "name": "Aachen_Hao_Final_Run_20261021_GitHub_Ready.zip.015",
-      "bytes": 2097144,
-      "sha256": "d025971dd31d658b7114aa29fa888910c6c2cfe63bae331e8eec9cc11b916314",
-      "git_blob_sha1": "a309324153b3a4e44c55df3a3ee44ed475982062"
-    },
-    {
-      "name": "Aachen_Hao_Final_Run_20261021_GitHub_Ready.zip.016",
-      "bytes": 2097144,
-      "sha256": "375b1c6c942e62ba4ec7405566fd493862e247801c66b362b7bf0ba5a283d009",
-      "git_blob_sha1": "8b2f15069b751be37be0382bbf0ffe91dde95354"
-    },
-    {
-      "name": "Aachen_Hao_Final_Run_20261021_GitHub_Ready.zip.017",
-      "bytes": 2097144,
-      "sha256": "c4e8912afd0899ef6c2d1c47e6cdfd454aefce41c1061a3493f5848baa0cf768",
-      "git_blob_sha1": "1465cb298eb369853dc69ab2a60656277f687bda"
-    },
-    {
-      "name": "Aachen_Hao_Final_Run_20261021_GitHub_Ready.zip.018",
-      "bytes": 2097144,
-      "sha256": "bec8e03a02c1c5549c7018fa354e464492b79e6f5093057f6ba3d455fda79164",
-      "git_blob_sha1": "62be7a399d1cd265627bf46361aba0edb22df3c7"
-    },
-    {
-      "name": "Aachen_Hao_Final_Run_20261021_GitHub_Ready.zip.019",
-      "bytes": 1807321,
-      "sha256": "1346b18aef44335b099477af5f89416549fe69cffc91e414cc7ab287ad37df16",
-      "git_blob_sha1": "fc23b0c6e312445cc7def8d54ee6cbb146aa42f2"
+      "name": "Aachen_Hao_English_Code_20261021.zip.013",
+      "bytes": 2013654,
+      "sha256": "e0e115e8948241fbb789bcb2e3840a92a38f0476735474104a1353dc5a14d6a6",
+      "git_blob_sha1": "203876e6764362f80a65a4ab97a40554fc355e4b"
     }
   ]
 }

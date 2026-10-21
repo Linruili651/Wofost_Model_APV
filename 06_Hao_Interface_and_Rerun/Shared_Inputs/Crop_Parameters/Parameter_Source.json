@@ -1,0 +1,48 @@
+{
+  "repository": "ajwdewit/WOFOST_crop_parameters",
+  "branch": "wofost73",
+  "commit": "3612078ae36a949a35b8712cc6deddf279b7fe81",
+  "download_date": "2026-10-19",
+  "files": [
+    {
+      "file": "wheat.yaml",
+      "url": "https://raw.githubusercontent.com/ajwdewit/WOFOST_crop_parameters/3612078ae36a949a35b8712cc6deddf279b7fe81/wheat.yaml",
+      "sha256": "45eabe5f59b2f853384d9482ba637c213db8dcbbca2977557aa32f58a0ede4ea"
+    },
+    {
+      "file": "barley.yaml",
+      "url": "https://raw.githubusercontent.com/ajwdewit/WOFOST_crop_parameters/3612078ae36a949a35b8712cc6deddf279b7fe81/barley.yaml",
+      "sha256": "5d80d544327fb19864722f0fa4919f41f0b78e48a32591e4b431337951ace890"
+    },
+    {
+      "file": "maize.yaml",
+      "url": "https://raw.githubusercontent.com/ajwdewit/WOFOST_crop_parameters/3612078ae36a949a35b8712cc6deddf279b7fe81/maize.yaml",
+      "sha256": "7b5453fe338c9fbabf6035ad5deab075bb8d82d5958491ec66f6cb40f8ba489e"
+    },
+    {
+      "file": "potato.yaml",
+      "url": "https://raw.githubusercontent.com/ajwdewit/WOFOST_crop_parameters/3612078ae36a949a35b8712cc6deddf279b7fe81/potato.yaml",
+      "sha256": "425c054963d7e6f6e4dc2071f2e9fb0d87542db482530e07ff300edb64010c67"
+    },
+    {
+      "file": "sugarbeet.yaml",
+      "url": "https://raw.githubusercontent.com/ajwdewit/WOFOST_crop_parameters/3612078ae36a949a35b8712cc6deddf279b7fe81/sugarbeet.yaml",
+      "sha256": "4806f6041ceb9be7f9fdf1a36b1505579fdcb12e8c1fa795e252c1538f361a07"
+    },
+    {
+      "file": "soybean.yaml",
+      "url": "https://raw.githubusercontent.com/ajwdewit/WOFOST_crop_parameters/3612078ae36a949a35b8712cc6deddf279b7fe81/soybean.yaml",
+      "sha256": "ace44539942c20673cf74227ece6bb50d988259fe4346135ab7ee25d23f5c92d"
+    },
+    {
+      "file": "LICENSE",
+      "url": "https://raw.githubusercontent.com/ajwdewit/WOFOST_crop_parameters/3612078ae36a949a35b8712cc6deddf279b7fe81/LICENSE",
+      "sha256": "c08bf77c0cfe308217ac626dd31a9ba616bd0450fa8b228dd3fd0182a158188e"
+    },
+    {
+      "file": "changelog.txt",
+      "url": "https://raw.githubusercontent.com/ajwdewit/WOFOST_crop_parameters/3612078ae36a949a35b8712cc6deddf279b7fe81/changelog.txt",
+      "sha256": "4ab47371fe0479dd9d77cbeee51fd19235826a2b4d584b3a3b9c553112ccb590"
+    }
+  ]
+}

@@ -1,0 +1,62 @@
+[
+  {
+    "crop": "winter_wheat",
+    "mode": "PP",
+    "seconds": 0.5328951999981655
+  },
+  {
+    "crop": "winter_wheat",
+    "mode": "WLP_MLWB",
+    "seconds": 0.7608068000008643
+  },
+  {
+    "crop": "spring_barley",
+    "mode": "PP",
+    "seconds": 0.24912469999981113
+  },
+  {
+    "crop": "spring_barley",
+    "mode": "WLP_MLWB",
+    "seconds": 0.3769250000004831
+  },
+  {
+    "crop": "grain_maize",
+    "mode": "PP",
+    "seconds": 0.39040579999709735
+  },
+  {
+    "crop": "grain_maize",
+    "mode": "WLP_MLWB",
+    "seconds": 0.5395899000031932
+  },
+  {
+    "crop": "potato",
+    "mode": "PP",
+    "seconds": 0.3598137000008137
+  },
+  {
+    "crop": "potato",
+    "mode": "WLP_MLWB",
+    "seconds": 0.44924859999809996
+  },
+  {
+    "crop": "sugar_beet",
+    "mode": "PP",
+    "seconds": 0.3995031000013114
+  },
+  {
+    "crop": "sugar_beet",
+    "mode": "WLP_MLWB",
+    "seconds": 0.4870827000013378
+  },
+  {
+    "crop": "soybean",
+    "mode": "PP",
+    "seconds": 0.3294583999995666
+  },
+  {
+    "crop": "soybean",
+    "mode": "WLP_MLWB",
+    "seconds": 0.49661039999773493
+  }
+]

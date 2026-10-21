@@ -1,4 +1,0 @@
-Hao: 48 hourly rows appended to /Users/shirley01/Desktop/AgriPV/results/Hao_fixed_tilt_hourly_scenarios.csv
-
-Linrui: one cultivation-period row appended to /Users/shirley01/Desktop/AgriPV/results/Linrui_fixed_tilt_scenarios.csv
-

@@ -1,0 +1,4 @@
+{
+  "status": "failed",
+  "traceback": "Traceback (most recent call last):\n  File \".\\07_Full_Season_Run\\run_pipeline.py\", line 36, in <module>\n    subprocess.run([str(executable),str(HERE/script)],cwd=HERE,stdout=stream,stderr=subprocess.STDOUT,env=env,check=True)\n  File \"D:\\Miniconda3\\envs\\py311\\Lib\\subprocess.py\", line 571, in run\n    raise CalledProcessError(retcode, process.args,\nsubprocess.CalledProcessError: Command '['.\\\\00_Runtime\\\\Crop_Python\\\\Scripts\\\\python.exe', '.\\\\07_Full_Season_Run\\\\run_crops_and_plots.py']' returned non-zero exit status 1.\n"
+}

@@ -1,0 +1,8 @@
+{
+  "date": "2026-10-19 17:12:07",
+  "reason": "User requested only fixed opaque and fixed semi-transparent; omit tracking and vertical",
+  "retained_completed_fixed_days": 5,
+  "unchanged": "fixed physical inputs, radiation algorithm and daily checkpoint schema",
+  "comparisons": 36,
+  "figures": 12
+}

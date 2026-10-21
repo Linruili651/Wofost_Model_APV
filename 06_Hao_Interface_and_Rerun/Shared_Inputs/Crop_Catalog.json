@@ -1,0 +1,120 @@
+{
+  "source": "User-provided six-crop screenshot, received 2026-10-19; original retained in /",
+  "reference_yield_basis": "The screenshot labels t/ha but does not define dry/fresh/market moisture basis. Retain as reference only; never use to overwrite WOFOST output.",
+  "crops": {
+    "winter_wheat": {
+      "label": "Winter wheat",
+      "crop_name": "wheat",
+      "variety": "Winter_wheat_103",
+      "start_mm_dd": "10-15",
+      "end_mm_dd": "08-31",
+      "cross_year": true,
+      "organ": "grain",
+      "price_EUR_t": 213,
+      "cost_EUR_ha": 1120,
+      "reference_open_field_yield_t_ha": 9.27,
+      "reference_LER_crop_fixed_tilt": [
+        0.88,
+        0.95
+      ],
+      "reference_net_F": 954,
+      "reference_net_S": -2964,
+      "reference_net_V": 2578
+    },
+    "spring_barley": {
+      "label": "Spring barley",
+      "crop_name": "barley",
+      "variety": "Spring_barley_301",
+      "start_mm_dd": "03-26",
+      "end_mm_dd": "08-31",
+      "cross_year": false,
+      "organ": "grain",
+      "price_EUR_t": 196,
+      "cost_EUR_ha": 890,
+      "reference_open_field_yield_t_ha": 8.27,
+      "reference_LER_crop_fixed_tilt": [
+        0.82,
+        0.94
+      ],
+      "reference_net_F": 808,
+      "reference_net_S": -3112,
+      "reference_net_V": 2428
+    },
+    "grain_maize": {
+      "label": "Grain maize",
+      "crop_name": "maize",
+      "variety": "Grain_maize_201",
+      "start_mm_dd": "05-01",
+      "end_mm_dd": "10-31",
+      "cross_year": false,
+      "organ": "grain",
+      "price_EUR_t": 219,
+      "cost_EUR_ha": 1690,
+      "reference_open_field_yield_t_ha": 15.44,
+      "reference_LER_crop_fixed_tilt": [
+        0.85,
+        0.94
+      ],
+      "reference_net_F": 1663,
+      "reference_net_S": -2223,
+      "reference_net_V": 3291
+    },
+    "potato": {
+      "label": "Potato",
+      "crop_name": "potato",
+      "variety": "Potato_701",
+      "start_mm_dd": "04-15",
+      "end_mm_dd": "09-30",
+      "cross_year": false,
+      "organ": "tuber",
+      "price_EUR_t": 198,
+      "cost_EUR_ha": 4930,
+      "reference_open_field_yield_t_ha": 65.42,
+      "reference_LER_crop_fixed_tilt": [
+        0.91,
+        0.96
+      ],
+      "reference_net_F": 7710,
+      "reference_net_S": 3742,
+      "reference_net_V": 9225
+    },
+    "sugar_beet": {
+      "label": "Sugar beet",
+      "crop_name": "sugarbeet",
+      "variety": "Sugarbeet_601",
+      "start_mm_dd": "04-05",
+      "end_mm_dd": "10-22",
+      "cross_year": false,
+      "organ": "storage_root",
+      "price_EUR_t": 42,
+      "cost_EUR_ha": 1620,
+      "reference_open_field_yield_t_ha": 84.36,
+      "reference_LER_crop_fixed_tilt": [
+        0.84,
+        0.94
+      ],
+      "reference_net_F": 1883,
+      "reference_net_S": -2026,
+      "reference_net_V": 3489
+    },
+    "soybean": {
+      "label": "Soybean",
+      "crop_name": "soybean",
+      "variety": "Soybean_901",
+      "start_mm_dd": "04-28",
+      "end_mm_dd": "10-15",
+      "cross_year": false,
+      "organ": "grain",
+      "price_EUR_t": 450,
+      "cost_EUR_ha": 900,
+      "reference_open_field_yield_t_ha": 4.43,
+      "reference_LER_crop_fixed_tilt": [
+        0.89,
+        0.96
+      ],
+      "reference_net_F": 1192,
+      "reference_net_S": -2706,
+      "reference_net_V": 2819
+    }
+  }
+}

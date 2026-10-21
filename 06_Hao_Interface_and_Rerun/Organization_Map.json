@@ -1,0 +1,265 @@
+{
+  "originals_untouched": true,
+  "files": [
+    {
+      "original": "Update/Hao__20261019/inputs/crops.json",
+      "organized": "06_Hao_Interface_and_Rerun/Shared_Inputs/Crop_Catalog.json"
+    },
+    {
+      "original": "Update/Hao__20261019/inputs/bk50/soil_profile_demo.json",
+      "organized": "04_Soil_and_Python/Soil_Inputs/Soil_Profile_Demo.json"
+    },
+    {
+      "original": "Update/Hao__20261019/inputs/bk50/selected_ONP_demo.json",
+      "organized": "04_Soil_and_Python/Soil_Inputs/Selected_ONP_Demo.json"
+    },
+    {
+      "original": "Update/Hao__20261019/inputs/Aachen_PVGIS_TMY.epw",
+      "organized": "03_Precipitation/Aachen_TMY_Weather.epw"
+    },
+    {
+      "original": "Update/Hao__20261019/inputs/Aachen_TMY_precipitation_supplement.json",
+      "organized": "03_Precipitation/Precipitation_Supplement.json"
+    },
+    {
+      "original": "Update/Hao__20261019/BK50/ISBK50_EPSG25832_GeoPackage.zip",
+      "organized": "04_Soil_and_Python/BK50_Official_Database-BK50.zip"
+    },
+    {
+      "original": "Update/Hao__20261019/BK50/download_source.json",
+      "organized": "04_Soil_and_Python/Database_Source.json"
+    },
+    {
+      "original": "Update/Hao__20261019/inputs/crops_wofost73/wheat.yaml",
+      "organized": "06_Hao_Interface_and_Rerun/Shared_Inputs/Crop_Parameters/Wheat.yaml"
+    },
+    {
+      "original": "Update/Hao__20261019/inputs/crops_wofost73/barley.yaml",
+      "organized": "06_Hao_Interface_and_Rerun/Shared_Inputs/Crop_Parameters/Barley.yaml"
+    },
+    {
+      "original": "Update/Hao__20261019/inputs/crops_wofost73/maize.yaml",
+      "organized": "06_Hao_Interface_and_Rerun/Shared_Inputs/Crop_Parameters/Maize.yaml"
+    },
+    {
+      "original": "Update/Hao__20261019/inputs/crops_wofost73/potato.yaml",
+      "organized": "06_Hao_Interface_and_Rerun/Shared_Inputs/Crop_Parameters/Potato.yaml"
+    },
+    {
+      "original": "Update/Hao__20261019/inputs/crops_wofost73/sugarbeet.yaml",
+      "organized": "06_Hao_Interface_and_Rerun/Shared_Inputs/Crop_Parameters/Sugar_Beet.yaml"
+    },
+    {
+      "original": "Update/Hao__20261019/inputs/crops_wofost73/soybean.yaml",
+      "organized": "06_Hao_Interface_and_Rerun/Shared_Inputs/Crop_Parameters/Soybean.yaml"
+    },
+    {
+      "original": "Update/Hao__20261019/inputs/crops_wofost73/LICENSE",
+      "organized": "06_Hao_Interface_and_Rerun/Shared_Inputs/Crop_Parameters/License.txt"
+    },
+    {
+      "original": "Update/Hao__20261019/inputs/crops_wofost73/SOURCE.json",
+      "organized": "06_Hao_Interface_and_Rerun/Shared_Inputs/Crop_Parameters/Parameter_Source.json"
+    },
+    {
+      "original": "Update/Hao__20261019/inputs/crops_wofost73/changelog.txt",
+      "organized": "06_Hao_Interface_and_Rerun/Shared_Inputs/Crop_Parameters/Changelog.txt"
+    },
+    {
+      "original": "Update/Hao__20261019/inputs/PROVENANCE.json",
+      "organized": "06_Hao_Interface_and_Rerun/Shared_Inputs/Original_Provenance.json"
+    },
+    {
+      "original": "Update/Hao__20261019//Hao_.png",
+      "organized": "06_Hao_Interface_and_Rerun/Shared_Inputs/Hao_Crop_Reference.png"
+    },
+    {
+      "original": "Update/Hao__20261019/inputs/bk50/aachen_candidates.json",
+      "organized": "04_Soil_and_Python/Soil_Inputs/Aachen_Soil_Candidates.json"
+    },
+    {
+      "original": "Update/Hao__20261019/inputs/precipitation_sources/open_meteo_era5_fixed_UTCplus1_raw.json",
+      "organized": "03_Precipitation/Original_Data/ERA5_Raw_Response.json"
+    },
+    {
+      "original": "Update/_20261016/README_.md",
+      "organized": "03_Precipitation/Detailed_Method.md"
+    },
+    {
+      "original": "Update/Hao__20261019/BK50/SHA256SUMS.txt",
+      "organized": "04_Soil_and_Python/Database_Checksum.txt"
+    },
+    {
+      "original": "Update/Hao__20261019/BK50/database_validation.json",
+      "organized": "04_Soil_and_Python/Database_Validation.json"
+    },
+    {
+      "original": "Update/Hao__20261019/BK50/00__.md",
+      "organized": "04_Soil_and_Python/Database_Guide.md"
+    },
+    {
+      "original": "Update/Hao__20261019/BK50/01_.md",
+      "organized": "04_Soil_and_Python/Process_Coverage.md"
+    },
+    {
+      "original": "Update/Hao__20261019/BK50/_OpenNRW.html",
+      "organized": "04_Soil_and_Python/Official_Description.html"
+    },
+    {
+      "original": "Update/Hao__20261019/BK50/_dl-de_by-2-0.html",
+      "organized": "04_Soil_and_Python/Official_License.html"
+    },
+    {
+      "original": "Update/Hao__20261019/BK50//INFO_JDM.txt",
+      "organized": "04_Soil_and_Python/Field_Definitions/JDM_Depth_Fields_Original.txt"
+    },
+    {
+      "original": "Update/Hao__20261019/BK50//INFO_JDM_UTF8.txt",
+      "organized": "04_Soil_and_Python/Field_Definitions/JDM_Depth_Fields_UTF8.txt"
+    },
+    {
+      "original": "Update/Hao__20261019/BK50//INFO_KRZ.txt",
+      "organized": "04_Soil_and_Python/Field_Definitions/KRZ_Root_Zone_Fields_Original.txt"
+    },
+    {
+      "original": "Update/Hao__20261019/BK50//INFO_KRZ_UTF8.txt",
+      "organized": "04_Soil_and_Python/Field_Definitions/KRZ_Root_Zone_Fields_UTF8.txt"
+    },
+    {
+      "original": "Update/Hao__20261019/BK50//INFO_ONP.txt",
+      "organized": "04_Soil_and_Python/Field_Definitions/ONP_Layer_Fields_Original.txt"
+    },
+    {
+      "original": "Update/Hao__20261019/BK50//INFO_ONP_UTF8.txt",
+      "organized": "04_Soil_and_Python/Field_Definitions/ONP_Layer_Fields_UTF8.txt"
+    },
+    {
+      "original": "Update/Hao__20261019/BK50//LEGENDE_SPALTEN_DBF.txt",
+      "organized": "04_Soil_and_Python/Field_Definitions/Map_Fields_Original.txt"
+    },
+    {
+      "original": "Update/Hao__20261019/BK50//LEGENDE_SPALTEN_DBF_UTF8.txt",
+      "organized": "04_Soil_and_Python/Field_Definitions/Map_Fields_UTF8.txt"
+    },
+    {
+      "original": "Update/Hao__20261019/BK50//PCSE_models.html",
+      "organized": "04_Soil_and_Python/Model_References/PCSE_models.html"
+    },
+    {
+      "original": "Update/Hao__20261019/BK50//PCSE_multilayer_waterbalance.html",
+      "organized": "04_Soil_and_Python/Model_References/PCSE_multilayer_waterbalance.html"
+    },
+    {
+      "original": "Update/Hao__20261019/BK50//PCSE_root_dynamics.html",
+      "organized": "04_Soil_and_Python/Model_References/PCSE_root_dynamics.html"
+    },
+    {
+      "original": "Update/Hao__20261019/BK50//PCSE_SNOMIN.html",
+      "organized": "04_Soil_and_Python/Model_References/PCSE_SNOMIN.html"
+    },
+    {
+      "original": "Update/Hao__20261019/BK50//PCSE_soil_profile.html",
+      "organized": "04_Soil_and_Python/Model_References/PCSE_soil_profile.html"
+    },
+    {
+      "original": "Update/Hao__20261019/originals_readonly/02_optimization_ready_radiation_model.ipynb",
+      "organized": "05_Tianze_Files/Original_Files/Fixed_Tilt_Original.ipynb"
+    },
+    {
+      "original": "Update/Hao__20261019/originals_readonly/03_optimization_ready_single_axis_radiation_model.ipynb",
+      "organized": "05_Tianze_Files/Original_Files/Single_Axis_Original.ipynb"
+    },
+    {
+      "original": "Update/Hao__20261019/inputs/Aachen_PVGIS_TMY.epw",
+      "organized": "05_Tianze_Files/Original_Files/Aachen_Original_Weather.epw"
+    },
+    {
+      "original": "/Tianze_Hao_/hao_ground_irradiance_SCHEMA_SAMPLE_not_real_data.csv",
+      "organized": "05_Tianze_Files/Original_Files/Hao_Schema_Sample_Not_Data.csv"
+    },
+    {
+      "original": "Update/Hao__20261019/inputs/tianze_defaults.json",
+      "organized": "05_Tianze_Files/Tianze_Defaults.json"
+    },
+    {
+      "original": "Update/Hao__20261019/requirements-radiation.txt",
+      "organized": "05_Tianze_Files/Radiation_Requirements.txt"
+    },
+    {
+      "original": "Update/Hao__20261019/requirements-bk50-extraction.txt",
+      "organized": "04_Soil_and_Python/Extraction_Requirements.txt"
+    },
+    {
+      "original": "Update/Hao__20261019/requirements.txt",
+      "organized": "06_Hao_Interface_and_Rerun/Requirements.txt"
+    },
+    {
+      "original": "Update/Hao__20261019/_/RE.py",
+      "organized": "06_Hao_Interface_and_Rerun/Historical_Files/Original_RE_Placeholder.py"
+    },
+    {
+      "original": "Update/Hao__20261019/_/Y.ipynb",
+      "organized": "06_Hao_Interface_and_Rerun/Historical_Files/Original_Y_Notebook.ipynb"
+    },
+    {
+      "original": "Update/Hao__20261019/_/Tianze_Crop_Hao_Jupyter.zip",
+      "organized": "06_Hao_Interface_and_Rerun/Historical_Files/Original_Jupyter_Package-Jupyter.zip"
+    },
+    {
+      "original": "Update/Hao__20261019/_/README_.md",
+      "organized": "06_Hao_Interface_and_Rerun/Historical_Files/Original_Rainfall_Guide.md"
+    },
+    {
+      "original": "Update/Hao__20261019/_/_PP/20261016T032946Z/original_PP_placeholder_actual_weather.csv",
+      "organized": "06_Hao_Interface_and_Rerun/Historical_Files/PP_Rain_Reruns/Run_20261016T032946Z/Original_PP_Weather.csv"
+    },
+    {
+      "original": "Update/Hao__20261019/_/_PP/20261016T032946Z/original_PP_placeholder_daily.csv",
+      "organized": "06_Hao_Interface_and_Rerun/Historical_Files/PP_Rain_Reruns/Run_20261016T032946Z/Original_PP_Daily.csv"
+    },
+    {
+      "original": "Update/Hao__20261019/_/_PP/20261016T032946Z/water_comparison.json",
+      "organized": "06_Hao_Interface_and_Rerun/Historical_Files/PP_Rain_Reruns/Run_20261016T032946Z/PP_Rain_Comparison.json"
+    },
+    {
+      "original": "Update/Hao__20261019/_/_PP/20261016T032946Z/with_precipitation_actual_weather.csv",
+      "organized": "06_Hao_Interface_and_Rerun/Historical_Files/PP_Rain_Reruns/Run_20261016T032946Z/Rain_Supplement_Weather.csv"
+    },
+    {
+      "original": "Update/Hao__20261019/_/_PP/20261016T032946Z/with_precipitation_daily.csv",
+      "organized": "06_Hao_Interface_and_Rerun/Historical_Files/PP_Rain_Reruns/Run_20261016T032946Z/Rain_Supplement_Daily.csv"
+    },
+    {
+      "original": "Update/Hao__20261019/_/_PP/20261016T033029Z/original_PP_placeholder_actual_weather.csv",
+      "organized": "06_Hao_Interface_and_Rerun/Historical_Files/PP_Rain_Reruns/Run_20261016T033029Z/Original_PP_Weather.csv"
+    },
+    {
+      "original": "Update/Hao__20261019/_/_PP/20261016T033029Z/original_PP_placeholder_daily.csv",
+      "organized": "06_Hao_Interface_and_Rerun/Historical_Files/PP_Rain_Reruns/Run_20261016T033029Z/Original_PP_Daily.csv"
+    },
+    {
+      "original": "Update/Hao__20261019/_/_PP/20261016T033029Z/water_comparison.json",
+      "organized": "06_Hao_Interface_and_Rerun/Historical_Files/PP_Rain_Reruns/Run_20261016T033029Z/PP_Rain_Comparison.json"
+    },
+    {
+      "original": "Update/Hao__20261019/_/_PP/20261016T033029Z/with_precipitation_actual_weather.csv",
+      "organized": "06_Hao_Interface_and_Rerun/Historical_Files/PP_Rain_Reruns/Run_20261016T033029Z/Rain_Supplement_Weather.csv"
+    },
+    {
+      "original": "Update/Hao__20261019/_/_PP/20261016T033029Z/with_precipitation_daily.csv",
+      "organized": "06_Hao_Interface_and_Rerun/Historical_Files/PP_Rain_Reruns/Run_20261016T033029Z/Rain_Supplement_Daily.csv"
+    },
+    {
+      "original": "Update/Hao__20261019/_/_PP/20261016T033029Z/with_precipitation_soil_diagnostics.csv",
+      "organized": "06_Hao_Interface_and_Rerun/Historical_Files/PP_Rain_Reruns/Run_20261016T033029Z/PP_Soil_Diagnostics.csv"
+    },
+    {
+      "original": "Update/Hao__20261019/tianze_fixed.py",
+      "organized": "05_Tianze_Files/Python_Adapters/Fixed_Tilt_Adapter.py"
+    },
+    {
+      "original": "Update/Hao__20261019/tianze_tracking.py",
+      "organized": "05_Tianze_Files/Python_Adapters/Single_Axis_Adapter.py"
+    }
+  ]
+}

@@ -1,0 +1,15 @@
+{
+  "status": "historical_preparation_superseded_by_target_input_run",
+  "updated_at": "2026-10-20T21:10:45.336899+02:00",
+  "user_direction": "Research literature before selecting fertilisation and soil-N scenarios; do not launch an unfertilised full-season batch.",
+  "full_season_nitrogen_batch_started": true,
+  "full_season_nitrogen_figures_created": false,
+  "performed": "Three winter-wheat single-point matched-weather smoke runs (PP81, WLP81, NWLP/SNOMIN); not full six-crop PV results.",
+  "syntax_checks": "passed",
+  "per_crop_per_mode_normalisation_check": "passed; in-memory fixtures only, not plotted or exported as results",
+  "literature_review": "08_Thesis_Results/03_Notes/Nitrogen_Method_Review.md",
+  "existing_PP_WLP_results_preserved": true,
+  "delivery_zip_rebuilt": false,
+  "active_run": "07_Full_Season_Run/target_resource_run/status.json",
+  "note": "The earlier unfertilised batch was not launched. User subsequently chose adaptive inputs; the new target-input run is active. Earlier smoke checks remain historical validation."
+}

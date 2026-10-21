@@ -1,0 +1,48 @@
+{
+  "date": "2026-10-19",
+  "pcse": "6.0.13",
+  "WOFOST_version": "7.3",
+  "natural_light_six_crop_runs": 12,
+  "max_absolute_water_balance_residual_mm": 3.419486915845482e-13,
+  "real_Radiance_end_to_end_run": false,
+  "field_validated": false,
+  "reference_yields_used_to_force_results": false,
+  "soil_unit": "L5102_K342",
+  "soil_status": "nearby demonstrator; no field confirmed",
+  "nitrogen_model_implemented": false,
+  "runtime": {
+    "pcse": "6.0.13",
+    "numpy": "2.3.3",
+    "pandas": "2.3.3",
+    "PyYAML": "6.0.2",
+    "traitlets": "5.14.3",
+    "nbformat": "5.10.4",
+    "nbclient": "0.10.2"
+  },
+  "notebook_execution": [
+    {
+      "notebook": "01_PP\\PP.ipynb",
+      "status": "executed_without_error",
+      "scope": "spring barley actual model run; Radiance disabled"
+    },
+    {
+      "notebook": "02_WLP_MLWB\\.ipynb",
+      "status": "executed_without_error",
+      "scope": "spring barley actual model run; Radiance disabled"
+    },
+    {
+      "notebook": "Tianze_Crop_Hao.ipynb",
+      "status": "executed_without_error",
+      "scope": "local overview/usage execution; Colab upload not run"
+    },
+    {
+      "notebook": "Y.ipynb",
+      "status": "executed_without_error",
+      "scope": "local overview/usage execution; Colab upload not run"
+    }
+  ],
+  "unit_tests": {
+    "count": 6,
+    "status": "passed"
+  }
+}

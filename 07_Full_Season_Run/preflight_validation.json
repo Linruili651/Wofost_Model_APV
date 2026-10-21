@@ -1,0 +1,7 @@
+{
+  "status": "passed",
+  "six_radiation_branches": true,
+  "225_point_coordinates": true,
+  "crop_PP_WLP_smoke": true,
+  "note": "crop smoke uses existing full-season open weather; full APV crop results still pending"
+}
