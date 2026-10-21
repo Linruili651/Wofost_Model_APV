@@ -10,7 +10,7 @@ Read DELIVERY_STATUS.json first. `interim_full_season_running` means the ZIP con
 
 ## Reproduce
 
-The verified complete-season launcher targets Windows, Python 3.11 for crops and Python 3.13 for radiation. Machine-bound virtual environments are omitted from the ZIP. Install both Python versions with the Windows `py` launcher, then run Setup_Windows_Environments.ps1. It creates both environments within this project and installs recorded dependencies. Native Radiance 6.0.2 binaries and their official archive are included. / ZIP, ; Radiance.
+The verified complete-season launcher targets Windows, Python 3.11 for crops and Python 3.13 for radiation. Machine-bound virtual environments are omitted from the ZIP. Install both Python versions with the Windows `py` launcher, then run Setup_Windows_Environments.ps1. It creates both environments within this project and installs recorded dependencies. Native Radiance binaries are not included. Download Radiance 6.0.2 separately when recalculating radiation; see [the dependency guide](05_Tianze_Files/README_Radiance.md). Crop and nitrogen runs using the supplied radiation inputs do not require native Radiance.
 
 Run Start_Project.ps1 to start/resume. Open 08_Thesis_Results/View_Progress.html after the monitor starts. Inputs are under 03–06; the queue and checkpoints are under 07; collected tables/figures are under 08. Completed radiation days are reused; incomplete days are recomputed.
 

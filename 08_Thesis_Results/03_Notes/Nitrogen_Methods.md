@@ -1,7 +1,7 @@
 # Nitrogen leaching: implemented method and interpretation
 
 
-## Thesis-ready English methods
+## Methods
 
 The water-limited analysis was extended using WOFOST 8.1 coupled to the multilayer water balance and the SNOMIN soil nitrogen module. This additional experiment simulated crop growth, soil water availability, nitrogen uptake and nitrogen transformations within a common daily framework. The original WOFOST 7.3 PP and water-limited simulations were retained as a separate experiment. Differences between these experiments therefore cannot be attributed exclusively to nitrogen availability, since the model configuration and management assumptions also differ.
 

@@ -1,4 +1,4 @@
-## English text for the methods and limitations
+## Methods and limitations
 
 The simulation comparison was restricted to open-field conditions and two fixed-tilt agrivoltaic configurations: conventional opaque modules and semi-transparent modules. The same site weather, crop management, and soil assumptions were applied to the three treatments. Six crops were simulated under potential production (PP) and water-limited production (WLP) conditions. The two photovoltaic configurations retained their respective module geometry and optical parameters; their comparison therefore represents a contrast between module configurations rather than an isolated test of optical transmittance.
 

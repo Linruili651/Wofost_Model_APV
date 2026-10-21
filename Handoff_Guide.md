@@ -62,7 +62,7 @@ Crop seasons, prices and reference values from the supplied screenshot are retai
 
 ## Naming and original data-
 
-Folders, Python entries, notebooks, result files and guides use English-Chinese names. A module loader preserves Python imports despite hyphens in filenames. / , Python , , “-”; . 
+A module loader supports imports from the preserved project modules.
 
 Original BK50 ZIP contents, original notebook code and source URLs remain intact for provenance. Their original internal names are retained inside the official archive. Software-generated hidden caches keep their native technical names. / , BK50 ,  notebook  URL . . 
 

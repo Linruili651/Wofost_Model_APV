@@ -1,6 +1,6 @@
-# Aachen APV WOFOST project — English edition
+# Aachen APV WOFOST project
 
-This is the English-only edition of the verified final project dated 2026-10-21. Folder names, file names, code references, comments, labels, and documentation use English. The original working project remains unchanged locally.
+This repository contains the Aachen APV WOFOST project and records of the final run dated 2026-10-21.
 
 ## Latest nitrogen configuration
 
@@ -12,16 +12,20 @@ This is the English-only edition of the verified final project dated 2026-10-21.
 
 Initial mineral nitrogen is 35 kg N/ha: 30 nitrate-N plus 5 ammonium-N. The model uses estimated soil organic matter, C:N ratios and pH. Management limits include 80 kg N/ha per application and 400 kg N/ha per season; soybean has a routine mineral-N cap of zero. These are explicitly estimated management experiments, not field-validated Aachen predictions.
 
-The historical final rerun completed 36 WOFOST7.3 PP/WLP comparisons, 18 WOFOST8.1 technical references and 18 WOFOST8.1 management cases. Historical status, dates and execution hashes are retained as historical evidence. Translation is not a claim of a new calibrated experiment.
+The historical final rerun completed 36 WOFOST7.3 PP/WLP comparisons, 18 WOFOST8.1 technical references and 18 WOFOST8.1 management cases. Historical status, dates and execution hashes are retained as historical evidence.
 
 ## Run
 
-Use Windows and the Python launcher with Python 3.11 for crops and Python 3.13 for radiation. Run `Setup_Windows_Environments.ps1` to rebuild dependencies. For the management experiment, read `02_WLP_Model/Nitrogen_Extension/README_Target_Inputs.md` before running its entry point. Preserved daily radiation and weather inputs support crop reruns without recalculating Radiance. Native Radiance programs and the raw BK50 database archive are not part of this code-only distribution.
+Use Windows and the Python launcher with Python 3.11 for crops; Python 3.13 is also needed when recalculating radiation. See the dependency instructions below. For the management experiment, read `02_WLP_Model/Nitrogen_Extension/README_Target_Inputs.md` before running its entry point. Preserved daily radiation and weather inputs support crop reruns without recalculating Radiance. Native Radiance programs and the raw BK50 database archive are not part of this code-only distribution.
 
-`TRANSLATION_VERIFICATION.json` records syntax, numeric-table and algorithm checks. `ENGLISH_RELEASE_MANIFEST.json` supplies release-file SHA-256 checksums. Updated checkpoint manifests explicitly identify their translation rebase and retain the original execution identity. Source-copy manifests retain original provenance hashes when their presentation copy changed.
+### Dependencies
+
+After restoring and extracting the complete project, run commands from the extracted project root.
+
+- **Crop growth and nitrogen leaching with the supplied radiation/weather inputs:** use Python 3.11 and `00_Runtime/requirements-crop-lock.txt`. Native Radiance is not required.
+- **Recalculate PV shading and solar radiation:** also use Python 3.13 and `05_Tianze_Files/Radiance_Runtime/requirements-radiation-lock.txt`, and download [Radiance 6.0.2 for Windows](https://github.com/LBNL-ETA/Radiance/releases/tag/rad6R0P2) separately. Place its `bin` and `lib` folders directly under `05_Tianze_Files/Radiance_Runtime/Radiance_6.0.2/`.
+- `Setup_Windows_Environments.ps1` creates both Python environments and installs their locked packages; it does **not** download or install native Radiance. For crop-only work, see the separate commands in the [dependency and Radiance setup guide](05_Tianze_Files/README_Radiance.md).
 
 ## Contents and omissions
 
-Source code, notebooks without saved outputs, model input data, CSV result tables and final rerun records are retained. Historical thesis/Office snapshots, screenshots and pre-rendered figures were removed to avoid embedded Chinese text; numeric source tables and plotting code remain. English summary figures are regenerated from the unchanged result tables. `OMITTED_ARTIFACTS.json` lists excluded items under English names.
-
-Google Drive was not updated, as requested. This English edition is published only to GitHub. Earlier Git commits preserve the previous bilingual delivery; the current branch and portable archive are the English edition.
+Source code, notebooks without saved outputs, model input data, CSV result tables and final rerun records are retained. Historical thesis/Office snapshots, screenshots and pre-rendered figures are excluded; numeric source tables and plotting code remain. Summary figures are regenerated from the unchanged result tables. `OMITTED_ARTIFACTS.json` lists excluded items.

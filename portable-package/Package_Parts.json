@@ -1,85 +1,85 @@
 {
-  "archive": "Aachen_Hao_English_Code_20261021.zip",
-  "archive_bytes": 27179382,
-  "archive_sha256": "bbd8e06a0cb0756e567cd7a7e2f61dad22115711edd721a0c30e8433d8bed1bd",
+  "archive": "Aachen_Hao_Project_Code_20261021.zip",
+  "archive_bytes": 27179417,
+  "archive_sha256": "5a7e8096dcc040e707a474ab20c30c942246856992751845f5fc5fdd88253484",
   "parts": [
     {
-      "name": "Aachen_Hao_English_Code_20261021.zip.001",
+      "name": "Aachen_Hao_Project_Code_20261021.zip.001",
       "bytes": 2097144,
-      "sha256": "f8b343649cd8f3e9edfc1344929d414a8d3520e7c0bd7983c3f7fe517edf1115",
-      "git_blob_sha1": "351a51b3c4895e93bbe797f256eb0187d49ede72"
+      "sha256": "c1a1c4c11ec8ea131ba414a5efa5d3185da2158ecefedcb1fdded3d93ffe59ee",
+      "git_blob_sha1": "963ecc6a633963f21ec57bf19ee874daaa64ab12"
     },
     {
-      "name": "Aachen_Hao_English_Code_20261021.zip.002",
+      "name": "Aachen_Hao_Project_Code_20261021.zip.002",
       "bytes": 2097144,
-      "sha256": "b62034488c0c8406d3bdfbdd1f54463b7b352bee15e85a298e6416f9719860e3",
-      "git_blob_sha1": "021df48b5344763f71deacf684823d74d874161c"
+      "sha256": "052fdda9790e77ad2cf2d6c1301710cb036f31c24085ec1cefc54ab229d58080",
+      "git_blob_sha1": "7c1c2df98f6e3cf35389cf81c83e45205e69f43e"
     },
     {
-      "name": "Aachen_Hao_English_Code_20261021.zip.003",
+      "name": "Aachen_Hao_Project_Code_20261021.zip.003",
       "bytes": 2097144,
-      "sha256": "4ab6012d05790f2ba8d8c8a84ff7d414547bb558d1a1b14897d8c0b2fc68ba3e",
-      "git_blob_sha1": "3cb9a1e7fb5044424fd14f11a1c2c1c813b01d40"
+      "sha256": "a0feb0a305bd3e275bec2cd8ee610b53dab4fd3e0e3f08a4185f4d8fd4680166",
+      "git_blob_sha1": "db6fda59f39a72c0567adcffff6e9bed1ca8998d"
     },
     {
-      "name": "Aachen_Hao_English_Code_20261021.zip.004",
+      "name": "Aachen_Hao_Project_Code_20261021.zip.004",
       "bytes": 2097144,
-      "sha256": "01b55bf803b78daeaa3931c678774ee7c1098ec95f144ebf6b93386a7ba30315",
-      "git_blob_sha1": "5ff34555a727617377c355d198f28760bcd4471e"
+      "sha256": "3f9b1b6e356f31f136f2eacaba6edf604db65515bc3173470bb6c50dc72ad762",
+      "git_blob_sha1": "f2f9f1ff5a499905b9f6748924ce1b9264391ec9"
     },
     {
-      "name": "Aachen_Hao_English_Code_20261021.zip.005",
+      "name": "Aachen_Hao_Project_Code_20261021.zip.005",
       "bytes": 2097144,
-      "sha256": "61c4885c77922b6a08bc5a8992009e72b31ac2e1ca043c071190a5736d7ed512",
-      "git_blob_sha1": "80e752c864022c4c776b427f63de6d3cad3ca60d"
+      "sha256": "25e6fd499fddd0c508708edc95fa3d086e45de0ce91bd5aaa622451e4d704514",
+      "git_blob_sha1": "813f67e60fb88835e3a958a13bc00fffc9244303"
     },
     {
-      "name": "Aachen_Hao_English_Code_20261021.zip.006",
+      "name": "Aachen_Hao_Project_Code_20261021.zip.006",
       "bytes": 2097144,
-      "sha256": "f9171818a674f4205c5387a4b29262fe22c30d49f663e6f6e2fde1bd6c9a7814",
-      "git_blob_sha1": "32238b12a39a0a31650ad27547d0481c45e6769c"
+      "sha256": "00d51848496bd2bb31261b1924ee93030679c79d420d3c43f1ebfa5806ec9495",
+      "git_blob_sha1": "a74dbd55f15be1e36a0aa3a02315c687661c48f2"
     },
     {
-      "name": "Aachen_Hao_English_Code_20261021.zip.007",
+      "name": "Aachen_Hao_Project_Code_20261021.zip.007",
       "bytes": 2097144,
-      "sha256": "797383b1c7bc7d7071beba51820a44dcf91d6f2bc550ffcf6a8d0bc0b73e6022",
-      "git_blob_sha1": "ba17c861353d7d340111892b4f21bc6ac7ecf770"
+      "sha256": "8257a9def064773a659dfb18077192e87db639a834f8d93f4884305119f93509",
+      "git_blob_sha1": "f70030c60660287fc3445b74d7b769ab6dbe688e"
     },
     {
-      "name": "Aachen_Hao_English_Code_20261021.zip.008",
+      "name": "Aachen_Hao_Project_Code_20261021.zip.008",
       "bytes": 2097144,
-      "sha256": "31d7fe93cd00132253ef3d1663edca9fd5cb98d69cebd06811920d0205025b65",
-      "git_blob_sha1": "89ae79b246a8782575a8de163a26a367f7ee4c11"
+      "sha256": "d86a3ce6cb7bfc9c8478578207546718b397a7b36a6e6e774c37440bf6dd4059",
+      "git_blob_sha1": "b77172279b89069a7244afab1f30aba1976c9dad"
     },
     {
-      "name": "Aachen_Hao_English_Code_20261021.zip.009",
+      "name": "Aachen_Hao_Project_Code_20261021.zip.009",
       "bytes": 2097144,
-      "sha256": "ad3a5fac36dfcd21c372e862c23cf9e853db819e6b081d4f85b334cf26dc6f08",
-      "git_blob_sha1": "cf7b4812e72dd8ec917c13d02601ba5cc4092122"
+      "sha256": "920cc6de39e63afb40e083d5cbc4481133ce50c8101ba28da9a2ea7a9955f42b",
+      "git_blob_sha1": "aa078dcd9593910b5228eb49e848863829cbbc0f"
     },
     {
-      "name": "Aachen_Hao_English_Code_20261021.zip.010",
+      "name": "Aachen_Hao_Project_Code_20261021.zip.010",
       "bytes": 2097144,
-      "sha256": "605535dc17ebbeed64761f91da13121ec0edc3c0ea7cdcd0d51bb62e897263d4",
-      "git_blob_sha1": "7af4c4e033d2f133f418707f6554ef8e832cda79"
+      "sha256": "22a4315f7898355c2207ace7944493e24c7ecc4ba600a6512bdd187431c8111d",
+      "git_blob_sha1": "4a8d7a051e9cc84f9a96ceb1dccdf2b2050ab337"
     },
     {
-      "name": "Aachen_Hao_English_Code_20261021.zip.011",
+      "name": "Aachen_Hao_Project_Code_20261021.zip.011",
       "bytes": 2097144,
-      "sha256": "3628fff74a70f0e300e4687422d77ce46bcf17e42700dad691c26b891e787ca4",
-      "git_blob_sha1": "a283422213c6371805192ccddd6e166773d183b2"
+      "sha256": "537b43a93719d6eceecc0815aee2ba8677124d5bd2068719f4d613cadd096c39",
+      "git_blob_sha1": "de51a8ace52409219d25772857ee586bc997bfa5"
     },
     {
-      "name": "Aachen_Hao_English_Code_20261021.zip.012",
+      "name": "Aachen_Hao_Project_Code_20261021.zip.012",
       "bytes": 2097144,
-      "sha256": "c05f969b027a73d5b29a14da406d386cdf5a978c3e257e5876805d52adb96ab3",
-      "git_blob_sha1": "01ca688ddf334675cca9761a1d78c3820ef2e9ea"
+      "sha256": "e4ef16bc4f799793f3dcf49687ec04d08ce340cffef618c5330693c81bc7414c",
+      "git_blob_sha1": "2371c16dc6a5129a35b261b7a9ff8ef0f4ea5be4"
     },
     {
-      "name": "Aachen_Hao_English_Code_20261021.zip.013",
-      "bytes": 2013654,
-      "sha256": "e0e115e8948241fbb789bcb2e3840a92a38f0476735474104a1353dc5a14d6a6",
-      "git_blob_sha1": "203876e6764362f80a65a4ab97a40554fc355e4b"
+      "name": "Aachen_Hao_Project_Code_20261021.zip.013",
+      "bytes": 2013689,
+      "sha256": "2ef3e52367237389dc4cf77d89da174cbd914c6892fb4949eca480d9ff77c9d2",
+      "git_blob_sha1": "e82fd92b4a7c789482b0d3e59af33796320d415f"
     }
   ]
 }

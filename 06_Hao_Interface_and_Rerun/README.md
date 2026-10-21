@@ -11,7 +11,7 @@ No real full-season APV–water–nitrogen coupling is claimed. Hao's current ex
 - `Rerun_Models.py`: rerun either or both models.
 - `Model_Overview.ipynb`: crop/model overview.
 - `Y_Usage_Guide.ipynb`: local and Colab workflow.
-- `Shared_Core/`: shared crop engine, weather/grid utilities and bilingual module loader.
+- `Shared_Core/`: shared crop engine, weather/grid utilities and module loader.
 - `Shared_Inputs/`: six-crop catalog, official parameter snapshots and reference screenshot.
 - `Rerun_Results/`: outputs and six-crop comparison.
 - `Historical_Files/`: original RE/Y and old PP rainfall comparisons.
