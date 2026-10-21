@@ -1,33 +1,19 @@
-# Aachen Hao: final verified project, 2026-10-21
+# 最终代码包下载说明（2026-10-21）
 
-This repository was prepared from `Update/Aachen_Hao_统一运行项目`, not the older copy inside `Update/解压`.
+已按用户确认，仅保留代码包；额外的1.7GB原始数据库与全部逐点逐日结果大备份已停止上传。
 
-## Latest nitrogen configuration
+- 可直接解压的完整代码与复现输入包：Aachen_Hao_Final_Run_20261021_GitHub_Ready.zip（39,555,913字节，4,685个文件）。
+- Google Drive单文件下载：https://drive.google.com/file/d/1lSA3ySaFGG21axucPuUCqG8iufiz4Y6y/view?usp=drivesdk
+- GitHub私有仓库：https://github.com/Linruili651/Wofost_Model_APV
 
-- Input: `04_Soil_and_Python-土壤条件与Python/Nitrogen_Inputs-氮输入/Aachen_BK50_SoilGrids_Target-目标投入估计情景.json`
-- Management rules: `02_WLP_Model-WLP模型/Nitrogen_Extension-氮淋失扩展/Target_Management-目标管理.json`
-- Entry: `02_WLP_Model-WLP模型/Nitrogen_Extension-氮淋失扩展/Run_Target_Inputs-计算目标补水补氮.py`
-- Final rerun records and final tables: `09_Project_Records-项目记录/Final_Rerun_20261021/`
+来源是 Update/Aachen_Hao_统一运行项目，包含最后一次补上的初始氮设置、补水补氮规则、模型代码、天气与保存的辐射输入，以及2026-10-21最终复跑材料。已核对1168个最终运行代码与输入文件的哈希。
 
-Initial mineral N is 35 kg N/ha (30 nitrate-N + 5 ammonium-N), with explicitly estimated soil parameters. These are management experiments, not field-validated Aachen predictions. The completed rerun includes 36 WOFOST7.3 PP/WLP comparisons, 18 WOFOST8.1 reference runs, and 18 water/N management cases.
+初始矿质氮35kgN/ha（硝态氮30、铵态氮5），含分层有机质、碳氮比和pH估计。氮参数在04/Nitrogen_Inputs下的Aachen_BK50_SoilGrids_Target-目标投入估计情景.json；补氮规则与入口在02/Nitrogen_Extension下。属于估计参数管理实验，尚未经田间验证。
 
-`Verified_Final_Run_Inputs.json` verifies the source/input hashes against the final execution manifest. Original project status files retain their original scope and timestamps; the latest completed rerun status is `09_Project_Records-项目记录/Final_Rerun_20261021/status.json`.
+从Drive下载ZIP即可直接解压。若仅从GitHub下载：先下载并解压整个仓库，再运行Restore_Portable_Package.ps1，将portable-package目录内19个已校验分块恢复为相同的代码ZIP。GitHub内的部分源码和参数已展开，便于查看；完整项目布局在ZIP内。
 
-## Reproduction and backup
+代码ZIP的SHA-256：0cba86f4e18903ea3ddb2ca39e97a65ba719d07d4f0a865d5abdd97ab3b60485
 
-Use Windows with Python 3.11 for crop calculations and Python 3.13 for radiation. Run `Setup_Windows_Environments-重建运行环境.ps1` to rebuild the local Python environments. Read the target-input guide before running the management experiment. The saved matched radiation/weather inputs are included, so the crop rerun can use those inputs without rerunning Radiance.
+代码包保留源码、复现输入、依赖清单与汇总/复跑记录；不包含本机虚拟环境、原始BK50数据库ZIP、原生Radiance二进制及全部压缩逐日明细。已有辐射输入可用于作物复跑；重算Radiance需另行准备原生程序。完整核验清单为同目录Verified_Final_Run_Inputs.json。
 
-The Google Drive backup contains all selected project code, inputs, original data archive, native Radiance distribution, existing results, and final rerun records. The GitHub copy omits large archives/native programs and compressed detailed point/day outputs listed in `DRIVE_ONLY_FILES.json`. Restore those paths from the backup when exact archived outputs or the full radiation runtime are needed. Machine-specific virtual environments, caches, temporary files, and historical delivery ZIP snapshots are excluded from both copies; dependency lock files and setup scripts are retained.
-
-## Download
-
-- Complete portable code/input/summary package: [Aachen_Hao_Final_Run_20261021_GitHub_Ready.zip](https://drive.google.com/file/d/1lSA3ySaFGG21axucPuUCqG8iufiz4Y6y/view?usp=drivesdk)
-- Full backup, including detailed outputs and original/native data: [Google Drive](https://drive.google.com/drive/folders/15SGR4OUom9ekYS6_jjnrNkMypqwb0LdM)
-
-Download and extract the ZIP to a short directory before running. Selected source and parameter files are also expanded here for review; the ZIP contains the complete portable project layout. This archive contains 4,685 files. Its SHA-256 is `0cba86f4e18903ea3ddb2ca39e97a65ba719d07d4f0a865d5abdd97ab3b60485`.
-
-The full Drive backup is split into 21 parts; see its START_HERE guide and merge script.
-
-## Restore entirely from GitHub
-
-Download this repository as ZIP and extract it, or clone it. Run `Restore_Portable_Package.ps1` to combine the 19 verified parts under `portable-package/` into the portable project ZIP. Extract that ZIP into a short directory before execution. Each part and the completed ZIP are checked with SHA-256. The Drive link above provides the same portable ZIP as a single file.
+Partial_Backup_Not_Required-未完成大备份_无需下载 子文件夹仅保存此前少量成功上传的大备份分卷，不完整，无需下载。包内较早的备份计划说明以本页最终范围为准。
